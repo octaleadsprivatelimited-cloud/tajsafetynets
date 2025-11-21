@@ -97,12 +97,15 @@ const Navbar: React.FC = () => {
   }
 
   return (
-    <nav className="shadow-md fixed w-full z-50" style={{ backgroundColor: '#f97316' }}>
+    <nav className="shadow-md fixed w-full z-50 bg-primary-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
               <Link to="/" className="flex items-center space-x-3">
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-12 w-auto object-contain hidden sm:block" />
-                <img src="/images/logo.png" alt="Steel Invisible Grills" className="h-10 w-auto object-contain sm:hidden" />
+                <img 
+                  src="/images/logo.png" 
+                  alt="Taj Safety Nets Logo" 
+                  className="h-14 sm:h-16 w-auto object-contain"
+                />
               </Link>
 
           {/* Mobile Phone Number and Menu - Only visible on small screens */}
@@ -204,7 +207,7 @@ const Navbar: React.FC = () => {
             {/* Quality Button */}
             <Link
               to="/about"
-              className="bg-green-600 hover:bg-green-700 text-white px-3 py-2 rounded-lg font-semibold transition-colors flex items-center space-x-1.5 shadow-lg text-sm"
+              className="bg-secondary-600 hover:bg-secondary-700 text-white px-3 py-2 rounded-lg font-semibold transition-colors flex items-center space-x-1.5 shadow-lg text-sm"
             >
               <Award className="h-4 w-4" />
               <span>Quality Assured</span>
@@ -213,7 +216,7 @@ const Navbar: React.FC = () => {
             {/* Get Quote Button */}
             <button
               onClick={openWhatsAppQuote}
-              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors cursor-pointer text-sm"
+              className="bg-accent-600 hover:bg-accent-700 text-white px-4 py-2 rounded-lg font-semibold transition-colors cursor-pointer text-sm"
             >
               Get Quote
             </button>
@@ -295,7 +298,7 @@ const Navbar: React.FC = () => {
               {/* Mobile Quality Button */}
               <Link
                 to="/about"
-                className="block w-full text-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2"
+                className="block w-full text-center bg-secondary-600 hover:bg-secondary-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2"
                 onClick={() => setIsOpen(false)}
               >
                 <Award className="h-5 w-5" />
@@ -308,7 +311,7 @@ const Navbar: React.FC = () => {
                   openWhatsAppQuote();
                   setIsOpen(false);
                 }}
-                className="block w-full text-center bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors cursor-pointer"
+                className="block w-full text-center bg-accent-600 hover:bg-accent-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors cursor-pointer"
               >
                 Get Quote
               </button>

@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronDown, 
   ChevronUp,
   HelpCircle,
   Lightbulb,
   Zap,
-  Shield
+  Shield,
+  Phone,
+  MessageCircle,
+  ArrowRight,
+  Sparkles,
+  CheckCircle,
+  Settings,
+  Award
 } from 'lucide-react';
 
 const FAQ: React.FC = () => {
@@ -24,7 +32,7 @@ const FAQ: React.FC = () => {
     {
       title: "Invisible Grill Installation",
       icon: <Shield className="h-6 w-6" />,
-      color: "from-blue-400 to-blue-600",
+      color: "accent",
       questions: [
         {
           question: "How long does invisible grill installation take?",
@@ -42,8 +50,8 @@ const FAQ: React.FC = () => {
     },
     {
       title: "Safety & Quality",
-      icon: <Shield className="h-6 w-6" />,
-      color: "from-green-400 to-green-600",
+      icon: <Award className="h-6 w-6" />,
+      color: "secondary",
       questions: [
         {
           question: "Are your invisible grills certified and tested?",
@@ -62,7 +70,7 @@ const FAQ: React.FC = () => {
     {
       title: "General Questions",
       icon: <HelpCircle className="h-6 w-6" />,
-      color: "from-blue-400 to-blue-600",
+      color: "primary",
       questions: [
         {
           question: "What are invisible grills and why do I need them?",
@@ -80,8 +88,8 @@ const FAQ: React.FC = () => {
     },
     {
       title: "Cloth Hangers & Support",
-      icon: <Shield className="h-6 w-6" />,
-      color: "from-purple-400 to-purple-600",
+      icon: <Settings className="h-6 w-6" />,
+      color: "accent",
       questions: [
         {
           question: "What types of cloth hangers do you provide?",
@@ -100,138 +108,280 @@ const FAQ: React.FC = () => {
   ];
 
   return (
-    <div className="pt-16">
-      {/* Hero Section */}
-      <section className="relative text-white py-20 overflow-hidden">
+    <>
+      <Helmet>
+        <title>FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad</title>
+        <meta name="description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. Get answers about pricing, installation, maintenance, warranty, and services in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 7893987771" />
+        <meta name="keywords" content="invisible grills FAQ, cloth hangers FAQ, grill installation questions, safety nets FAQ, grill pricing, installation process, maintenance tips, warranty information, Taj Safety Nets FAQ, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, common questions Hyderabad" />
+        <meta property="og:title" content="FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad" />
+        <meta property="og:description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. Get answers about pricing, installation, and services. ☎ +91 7893987771" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. ☎ +91 7893987771" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Taj Safety Nets" />
+      </Helmet>
+      <div className="pt-16">
+      {/* Hero Section - Redesigned */}
+      <section className="relative text-white py-10 lg:py-16 overflow-hidden min-h-[40vh] sm:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
           backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
         }}></div>
         
-        {/* Dark Overlay for Better Text Visibility */}
-        <div className="absolute inset-0 bg-blue-900/70"></div>
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary-900/80 via-primary-800/70 to-primary-900/80"></div>
         
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        {/* Decorative Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 right-20 w-96 h-96 bg-accent-400/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-80 h-80 bg-secondary-400/10 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center w-full">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="mb-8"
+            className="inline-block mb-4"
           >
-            <HelpCircle className="h-20 w-20 text-yellow-400 mx-auto mb-6" />
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
-              Frequently Asked Questions
-            </h1>
-            <p className="text-xl text-white max-w-3xl mx-auto font-medium">
-              Get answers to common questions about invisible grills, cloth hangers, installation, and maintenance. 
-              Everything you need to know about Steel Invisible Grills services.
-            </p>
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold">
+              <HelpCircle className="h-4 w-4 mr-2" />
+              Help Center
+            </span>
           </motion.div>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6"
+          >
+            Frequently Asked <span className="text-accent-400">Questions</span>
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto font-medium leading-relaxed"
+          >
+            Get answers to common questions about invisible grills, cloth hangers, installation, and maintenance. 
+            Everything you need to know about Taj Safety Nets services.
+          </motion.p>
         </div>
       </section>
 
-      {/* FAQ Categories */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {faqCategories.map((category, categoryIndex) => (
-              <motion.div
-                key={categoryIndex}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
-                className="bg-white rounded-xl shadow-lg overflow-hidden"
-              >
-                {/* Category Header */}
-                <div className={`bg-gradient-to-r ${category.color} text-white p-6`}>
-                  <div className="flex items-center space-x-3">
-                    {category.icon}
-                    <h2 className="text-2xl font-bold">{category.title}</h2>
-                  </div>
-                </div>
-                
-                {/* Questions */}
-                <div className="p-6">
-                  {category.questions.map((item, questionIndex) => {
-                    const itemIndex = categoryIndex * 3 + questionIndex;
-                    const isOpen = openItems.includes(itemIndex);
-                    
-                    return (
-                      <div key={questionIndex} className="mb-4 last:mb-0">
-                        <button
-                          onClick={() => toggleItem(itemIndex)}
-                          className="w-full text-left p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors flex items-center justify-between"
-                        >
-                          <span className="font-medium text-gray-900 pr-4">
-                            {item.question}
-                          </span>
-                          {isOpen ? (
-                            <ChevronUp className="h-5 w-5 text-gray-500 flex-shrink-0" />
-                          ) : (
-                            <ChevronDown className="h-5 w-5 text-gray-500 flex-shrink-0" />
-                          )}
-                        </button>
-                        
-                        {isOpen && (
-                          <motion.div
-                            initial={{ opacity: 0, height: 0 }}
-                            animate={{ opacity: 1, height: "auto" }}
-                            exit={{ opacity: 0, height: 0 }}
-                            transition={{ duration: 0.3 }}
-                            className="mt-2 p-4 bg-blue-50 rounded-lg"
-                          >
-                            <p className="text-gray-700 leading-relaxed">
-                              {item.answer}
-                            </p>
-                          </motion.div>
-                        )}
+      {/* FAQ Categories - Redesigned */}
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-white via-gray-50 to-primary-50/20 relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 left-10 w-80 h-80 bg-accent-200/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary-200/10 rounded-full blur-3xl"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+            {faqCategories.map((category, categoryIndex) => {
+              const colorClasses = {
+                accent: {
+                  bg: "from-accent-500 to-accent-600",
+                  iconBg: "bg-accent-100",
+                  iconColor: "text-accent-600",
+                  answerBg: "bg-accent-50",
+                  border: "border-accent-200",
+                  hoverBg: "hover:bg-accent-50"
+                },
+                secondary: {
+                  bg: "from-secondary-500 to-secondary-600",
+                  iconBg: "bg-secondary-100",
+                  iconColor: "text-secondary-600",
+                  answerBg: "bg-secondary-50",
+                  border: "border-secondary-200",
+                  hoverBg: "hover:bg-secondary-50"
+                },
+                primary: {
+                  bg: "from-primary-500 to-primary-600",
+                  iconBg: "bg-primary-100",
+                  iconColor: "text-primary-600",
+                  answerBg: "bg-primary-50",
+                  border: "border-primary-200",
+                  hoverBg: "hover:bg-primary-50"
+                }
+              };
+              
+              const colors = colorClasses[category.color as keyof typeof colorClasses] || colorClasses.primary;
+              
+              return (
+                <motion.div
+                  key={categoryIndex}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: categoryIndex * 0.1 }}
+                  viewport={{ once: true }}
+                  className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100"
+                >
+                  {/* Category Header */}
+                  <div className={`bg-gradient-to-r ${colors.bg} text-white p-6 sm:p-8`}>
+                    <div className="flex items-center space-x-4">
+                      <div className={`${colors.iconBg} ${colors.iconColor} p-3 rounded-xl shadow-lg`}>
+                        {category.icon}
                       </div>
-                    );
-                  })}
-                </div>
-              </motion.div>
-            ))}
+                      <h2 className="text-2xl sm:text-3xl font-bold">{category.title}</h2>
+                    </div>
+                  </div>
+                  
+                  {/* Questions */}
+                  <div className="p-6 sm:p-8">
+                    {category.questions.map((item, questionIndex) => {
+                      const itemIndex = categoryIndex * 3 + questionIndex;
+                      const isOpen = openItems.includes(itemIndex);
+                      
+                      return (
+                        <div key={questionIndex} className="mb-4 last:mb-0">
+                          <motion.button
+                            onClick={() => toggleItem(itemIndex)}
+                            whileHover={{ scale: 1.02 }}
+                            whileTap={{ scale: 0.98 }}
+                            className={`w-full text-left p-4 sm:p-5 bg-gray-50 ${colors.hoverBg} rounded-xl transition-all duration-300 flex items-center justify-between border ${colors.border} group`}
+                          >
+                            <span className="font-semibold text-gray-900 pr-4 text-sm sm:text-base leading-relaxed">
+                              {item.question}
+                            </span>
+                            <motion.div
+                              animate={{ rotate: isOpen ? 180 : 0 }}
+                              transition={{ duration: 0.3 }}
+                              className={`flex-shrink-0 ${colors.iconColor}`}
+                            >
+                              <ChevronDown className="h-5 w-5" />
+                            </motion.div>
+                          </motion.button>
+                          
+                          <AnimatePresence>
+                            {isOpen && (
+                              <motion.div
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: "auto" }}
+                                exit={{ opacity: 0, height: 0 }}
+                                transition={{ duration: 0.3 }}
+                                className="overflow-hidden"
+                              >
+                                <div className={`mt-3 p-4 sm:p-5 ${colors.answerBg} rounded-xl border ${colors.border}`}>
+                                  <p className="text-gray-700 leading-relaxed text-sm sm:text-base">
+                                    {item.answer}
+                                  </p>
+                                </div>
+                              </motion.div>
+                            )}
+                          </AnimatePresence>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      {/* Additional Help Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Additional Help Section - Redesigned */}
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-gray-900 via-primary-900 to-gray-900 text-white relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-20 right-20 w-96 h-96 bg-accent-400/10 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 left-20 w-80 h-80 bg-secondary-400/10 rounded-full blur-3xl"></div>
+        </div>
+
+        {/* Animated Grid Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute inset-0" style={{
+            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
+            backgroundSize: '50px 50px'
+          }}></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
           >
-            <Lightbulb className="h-16 w-16 text-yellow-500 mx-auto mb-6" />
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Still Have Questions?
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="inline-block mb-4"
+            >
+              <span className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-semibold">
+                <Lightbulb className="h-4 w-4 mr-2" />
+                Need More Help?
+              </span>
+            </motion.div>
+            
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6">
+              Still Have <span className="text-accent-400">Questions?</span>
             </h2>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
               Can't find the answer you're looking for? Our invisible grill experts are here to help.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+            {/* Contact Options */}
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-8 sm:mb-12">
+              <motion.a
                 href="tel:+917893987771"
-                className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors inline-flex items-center"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="group relative bg-gradient-to-r from-accent-500 to-accent-600 text-gray-900 px-8 sm:px-10 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-2xl hover:shadow-accent-500/50 overflow-hidden min-w-[200px] sm:min-w-[240px]"
               >
-                <Zap className="mr-2 h-5 w-5" />
-                Call Our Experts
-              </a>
-              <a
+                <Phone className="mr-2 h-5 w-5" />
+                <span>Call Our Experts</span>
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
+              </motion.a>
+              
+              <motion.a
                 href="https://wa.me/917893987771"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-yellow-500 hover:bg-yellow-500 hover:text-gray-900 text-yellow-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="group relative bg-white/10 backdrop-blur-md border-2 border-white/30 hover:border-white/50 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center hover:bg-white/20 overflow-hidden min-w-[200px] sm:min-w-[240px]"
               >
-                WhatsApp Us
-              </a>
+                <MessageCircle className="mr-2 h-5 w-5" />
+                <span>WhatsApp Us</span>
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </motion.a>
             </div>
+
+            {/* Trust Indicators */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              viewport={{ once: true }}
+              className="flex flex-wrap justify-center items-center gap-6 text-gray-300"
+            >
+              <div className="flex items-center">
+                <CheckCircle className="h-5 w-5 text-accent-400 mr-2" />
+                <span className="text-sm sm:text-base">24/7 Support</span>
+              </div>
+              <div className="flex items-center">
+                <CheckCircle className="h-5 w-5 text-accent-400 mr-2" />
+                <span className="text-sm sm:text-base">Expert Advice</span>
+              </div>
+              <div className="flex items-center">
+                <CheckCircle className="h-5 w-5 text-accent-400 mr-2" />
+                <span className="text-sm sm:text-base">Quick Response</span>
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </section>
     </div>
+    </>
   );
 };
 

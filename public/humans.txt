@@ -1,5 +1,5 @@
 /* TEAM */
-    Founder: Steel Invisible Grills Team
+    Founder: Taj Safety Nets Team
     Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
@@ -31,7 +31,6 @@
     Description: Quality safety nets and materials
 
 /* SITE */
-    Name: Steel Invisible Grills
+    Name: Taj Safety Nets
     Description: Leading safety nets installation company in Hyderabad
-    Keywords: safety nets, balcony safety nets, pigeon nets, cricket nets, kids safety nets, construction safety nets, industrial safety nets, sports nets, swimming pool nets, window safety nets, invisible nets, Hyderabad, Telangana, safety installation, protection solutions
-    Author: Steel Invisible Grills Team
+    Author: Taj Safety Nets Team

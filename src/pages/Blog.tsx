@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
@@ -15,9 +16,23 @@ const Blog: React.FC = () => {
   const featuredPost = articles.find(post => post.featured);
 
   return (
-    <div className="pt-16">
+    <>
+      <Helmet>
+        <title>Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad</title>
+        <meta name="description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. Expert advice from Taj Safety Nets serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 7893987771" />
+        <meta name="keywords" content="invisible grills blog, safety tips, installation guides, cloth hangers tips, grill maintenance, safety nets information, Taj Safety Nets blog, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety articles Hyderabad" />
+        <meta property="og:title" content="Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad" />
+        <meta property="og:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91 7893987771" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91 7893987771" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Taj Safety Nets" />
+      </Helmet>
+      <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative text-white py-20 overflow-hidden">
+      <section className="relative text-white py-12 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
           backgroundImage: `url('/images/safety-nets/slider-7-3.jpg')`
@@ -250,6 +265,7 @@ const Blog: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

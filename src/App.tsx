@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 // Alternative for Vercel deployment issues: import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import { SpeedInsights } from "@vercel/speed-insights/react";
 import { Analytics } from "@vercel/analytics/react";
 import Navbar from './components/Navbar';
@@ -19,7 +20,6 @@ import WhatsAppButton from './components/WhatsAppButton';
 import GreetingModal from './components/GreetingModal';
 import ScrollToTop from './components/ScrollToTop';
 import ErrorBoundary from './components/ErrorBoundary';
-import TawkChat from './components/TawkChat';
 import './App.css';
 
 // Lazy load heavy components
@@ -28,9 +28,10 @@ const ServicePage = lazy(() => import('./pages/ServicePage'));
 function App() {
   return (
     <ErrorBoundary>
-      <Router>
-        <ScrollToTop />
-        <div className="App">
+      <HelmetProvider>
+        <Router>
+          <ScrollToTop />
+          <div className="App">
           <Navbar />
               <main>
               <Routes>
@@ -64,12 +65,12 @@ function App() {
             </main>
         <GreetingModal />
         <WhatsAppButton />
-        <TawkChat />
         <Footer />
           <SpeedInsights />
           <Analytics />
         </div>
       </Router>
+      </HelmetProvider>
     </ErrorBoundary>
   );
 }

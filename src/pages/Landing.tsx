@@ -56,7 +56,7 @@ const Landing: React.FC = () => {
             {/* Logo and Company Name */}
             <div className="flex items-center flex-shrink-0 min-w-0">
               <Shield className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-yellow-400 mr-1 sm:mr-1.5 lg:mr-2 flex-shrink-0" />
-              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Steel Invisible Grills</h1>
+              <h1 className="text-sm sm:text-base lg:text-lg font-bold text-white truncate">Taj Safety Nets</h1>
             </div>
             
             {/* Contact Buttons */}
@@ -87,7 +87,7 @@ const Landing: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative py-12 sm:py-16 lg:py-20 text-center text-white">
+      <section className="relative py-8 sm:py-10 lg:py-12 text-center text-white">
         {/* Background Image for Hero Section */}
         <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
           backgroundImage: `url('/images/safety-nets/slider-7-3.jpg')`
@@ -224,7 +224,7 @@ const Landing: React.FC = () => {
       <section className="py-16 bg-white/5 w-full">
         <div className="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
           <h2 className="text-3xl lg:text-4xl font-bold text-white text-center mb-12">
-            Why Choose Steel Invisible Grills?
+            Why Choose Taj Safety Nets?
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -438,7 +438,7 @@ const Landing: React.FC = () => {
       {/* Footer */}
       <footer className="bg-black/30 py-8 text-center text-gray-300 w-full">
         <div className="w-full max-w-4xl mx-auto px-3 sm:px-4 lg:px-6">
-          <p>&copy; 2024 Steel Invisible Grills. All rights reserved.</p>
+          <p>&copy; 2024 Taj Safety Nets. All rights reserved.</p>
           <p className="mt-2">| ISO 9001:2015 Certified Serving All Areas of Hyderabad – delivering reliable safety nets solutions.</p>
         </div>
       </footer>
@@ -464,7 +464,7 @@ const Landing: React.FC = () => {
                       <Shield className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Steel Invisible Grills</h2>
+                      <h2 className="text-lg sm:text-xl font-bold text-white">Contact Taj Safety Nets</h2>
                       <p className="text-yellow-200 text-xs sm:text-sm">Get Free Safety Quote</p>
                     </div>
                   </div>

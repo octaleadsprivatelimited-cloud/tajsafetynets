@@ -1,4 +1,4 @@
-# Steel Invisible Grills - Safety Nets & Protection Solutions Website
+# Taj Safety Nets - Safety Nets & Protection Solutions Website
 
 A professional, responsive website for a safety nets and protection solutions company operating across India.
 
@@ -48,13 +48,7 @@ A professional, responsive website for a safety nets and protection solutions co
 
 ### Setup Steps
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Steel-Invisible-grills
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
@@ -136,7 +130,7 @@ The build folder will contain all production-ready files.
 ## 📞 Contact Information
 
 - **Phone**: +91 9100116156
-- **Email**: steelinvisiblegrillsints@gmail.com
+- **Email**: info@tajsafetynets.com
 - **Service Areas**: Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata
 
 ## 🔧 Configuration
@@ -144,9 +138,9 @@ The build folder will contain all production-ready files.
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Steel Invisible Grills
+REACT_APP_COMPANY_NAME=Taj Safety Nets
 REACT_APP_PHONE_NUMBER=+917893987771
-REACT_APP_EMAIL=steelinvisiblegrillsints@gmail.com
+REACT_APP_EMAIL=info@tajsafetynets.com
 ```
 
 ### Tailwind Configuration
@@ -180,7 +174,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 
 For contributions and collaboration, please contact us directly:
 - Phone: +91 7893987771
-- Email: steelinvisiblegrillsints@gmail.com
+- Email: info@tajsafetynets.com (Taj Safety Nets)
 
 ## 📄 License
 
@@ -195,4 +189,4 @@ For support and questions:
 
 ---
 
-**Steel Invisible Grills** - Protecting lives with quality safety solutions! 🛡️
+**Taj Safety Nets** - Protecting lives with quality safety solutions! 🛡️

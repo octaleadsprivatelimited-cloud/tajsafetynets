@@ -29,7 +29,7 @@ const GreetingModal: React.FC = () => {
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      "Hi! I'm interested in safety nets installation. Can you provide me with more information about your services?"
+      "Hi! I'm interested in safety nets installation from Taj Safety Nets. Can you provide me with more information about your services?"
     );
     const whatsappUrl = `https://wa.me/917893987771?text=${message}`;
     window.open(whatsappUrl, '_blank');
@@ -78,7 +78,7 @@ const GreetingModal: React.FC = () => {
                   transition={{ delay: 0.2 }}
                   className="flex justify-center mb-4"
                 >
-                  <div className="bg-blue-500 p-4 rounded-full">
+                  <div className="bg-accent-600 p-4 rounded-full">
                     <Shield className="h-8 w-8 text-white" />
                   </div>
                 </motion.div>
@@ -89,7 +89,7 @@ const GreetingModal: React.FC = () => {
                   transition={{ delay: 0.3 }}
                   className="text-2xl font-bold text-gray-900 mb-2"
                 >
-                  Welcome to Steel Invisible Grills! 🎉
+                  Welcome to Taj Safety Nets! 🎉
                 </motion.h2>
                 
                 <motion.p
@@ -144,7 +144,7 @@ const GreetingModal: React.FC = () => {
                 
                 <button
                   onClick={handleCall}
-                  className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold transition-colors flex items-center justify-center"
+                  className="w-full bg-accent-600 hover:bg-accent-700 text-white py-3 px-4 rounded-lg font-semibold transition-colors flex items-center justify-center"
                 >
                   <Phone className="h-5 w-5 mr-2" />
                   Call Now: +91 7893987771

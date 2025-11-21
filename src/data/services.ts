@@ -84,7 +84,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/invisible-grill-balconies.jpg",
       "/images/safety-nets/invisible-grill-windows.jpg",
-      "/images/safety-nets/invisible-grill-apartments.jpg"
+      "/images/safety-nets/invisible-grill-apartments.webp"
     ],
     priceRange: "₹80-120 per sq ft",
     category: "Invisible Grills",
@@ -154,7 +154,7 @@ export const services: Service[] = [
     gallery: [
       "/images/safety-nets/invisible-grill-windows.jpg",
       "/images/safety-nets/invisible-grill-balconies.jpg",
-      "/images/safety-nets/invisible-grill-apartments.jpg"
+      "/images/safety-nets/invisible-grill-apartments.webp"
     ],
     priceRange: "₹70-100 per sq ft",
     category: "Invisible Grills",
@@ -219,10 +219,10 @@ export const services: Service[] = [
       "Hardware maintenance"
     ],
     warranty: "5 years warranty on materials and workmanship",
-    image: "/images/safety-nets/invisible-grill-apartments.jpg",
-    heroImage: "/images/safety-nets/invisible-grill-apartments.jpg",
+    image: "/images/safety-nets/invisible-grill-apartments.webp",
+    heroImage: "/images/safety-nets/invisible-grill-apartments.webp",
     gallery: [
-      "/images/safety-nets/invisible-grill-apartments.jpg",
+      "/images/safety-nets/invisible-grill-apartments.webp",
       "/images/safety-nets/invisible-grill-balconies.jpg",
       "/images/safety-nets/invisible-grill-windows.jpg"
     ],

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import LazyImage from '../components/LazyImage';
@@ -39,10 +40,29 @@ const ServicePage: React.FC = () => {
     );
   }
 
+  // Generate keywords based on service
+  const serviceKeywords = service.name.toLowerCase().replace(/&/g, '').replace(/\s+/g, ', ');
+  const locationKeywords = "Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, Hyderabad";
+  const allKeywords = `${serviceKeywords}, invisible grills, cloth hangers, ${locationKeywords}, Taj Safety Nets, professional installation, quality grills`;
+
   return (
-    <div className="pt-16">
+    <>
+      <Helmet>
+        <title>{service.name} - Professional Installation | Taj Safety Nets Hyderabad</title>
+        <meta name="description" content={`${service.shortDescription} Professional installation by Taj Safety Nets in Hyderabad. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91 7893987771`} />
+        <meta name="keywords" content={allKeywords} />
+        <meta property="og:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
+        <meta property="og:description" content={`${service.shortDescription} Professional installation in Hyderabad. Free quote! ☎ +91 7893987771`} />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
+        <meta name="twitter:description" content={`${service.shortDescription} Professional installation in Hyderabad. ☎ +91 7893987771`} />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Taj Safety Nets" />
+      </Helmet>
+      <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative text-white py-20 overflow-hidden">
+      <section className="relative text-white py-12 overflow-hidden">
         {/* Background Image */}
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
@@ -419,6 +439,7 @@ const ServicePage: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

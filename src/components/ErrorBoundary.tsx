@@ -31,7 +31,7 @@ class ErrorBoundary extends Component<Props, State> {
             <p className="text-gray-600 mb-6">We're sorry, but something unexpected happened.</p>
             <button
               onClick={() => window.location.reload()}
-              className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+              className="bg-accent-600 hover:bg-accent-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
             >
               Reload Page
             </button>

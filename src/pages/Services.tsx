@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { 
@@ -29,7 +30,7 @@ const Services: React.FC = () => {
   
   const services = [
     {
-      icon: <Shield className="h-16 w-16 text-blue-500" />,
+      icon: <Shield className="h-16 w-16 text-primary-600" />,
       image: "/images/safety-nets/invisible-grill-balconies.jpg",
       title: "Invisible Grill for Balconies",
       description: "Premium invisible grills for balconies. Choose from 5 wire sizes (2mm, 2.5mm, 3mm, 3.5mm, 4mm) - thicker wires for more strength, thinner for better invisibility",
@@ -42,7 +43,7 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: <Target className="h-16 w-16 text-blue-500" />,
+      icon: <Target className="h-16 w-16 text-primary-600" />,
       image: "/images/safety-nets/invisible-grill-windows.jpg",
       title: "Invisible Grill for Windows",
       description: "Elegant window grills with 5 wire thickness options (2mm, 2.5mm, 3mm, 3.5mm, 4mm). Provides security without blocking sunlight or views - you won't even notice they're there!",
@@ -55,8 +56,8 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: <HardHat className="h-16 w-16 text-blue-500" />,
-      image: "/images/safety-nets/invisible-grill-apartments.jpg",
+      icon: <HardHat className="h-16 w-16 text-primary-600" />,
+      image: "/images/safety-nets/invisible-grill-apartments.webp",
       title: "Invisible Grill for Apartments",
       description: "Complete apartment grill solutions available in 2mm, 2.5mm, 3mm, 3.5mm, and 4mm wire sizes. Perfect for high-rise safety - protects children and pets without blocking your beautiful view",
       features: [
@@ -68,7 +69,7 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: <Settings className="h-16 w-16 text-blue-500" />,
+      icon: <Settings className="h-16 w-16 text-primary-600" />,
       image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
       title: "Pull & Dry Cloth Hangers",
       description: "Space-saving pull & dry hangers. Available in 4ft, 5ft, 6ft, 7ft, 8ft sizes with 3 or 6 rods - pull out to dry, fold back when done!",
@@ -81,7 +82,7 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: <Wrench className="h-16 w-16 text-blue-500" />,
+      icon: <Wrench className="h-16 w-16 text-primary-600" />,
       image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
       title: "Ceiling Cloth Hangers",
       description: "Ceiling hangers that save wall space! Choose from 4ft to 8ft lengths with 3 or 6 rods. Lower to load clothes, raise to dry - smart solution!",
@@ -94,7 +95,7 @@ const Services: React.FC = () => {
       ],
     },
     {
-      icon: <TreePine className="h-16 w-16 text-blue-500" />,
+      icon: <TreePine className="h-16 w-16 text-primary-600" />,
       image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
       title: "Pull & Dry Cloth Hangers for Balconies",
       description: "Balcony-specific hangers in 4ft to 8ft sizes with 3 or 6 rods. Extra weather-resistant for outdoor balcony use. Perfect for apartments!",
@@ -109,9 +110,23 @@ const Services: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
+      <Helmet>
+        <title>Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad</title>
+        <meta name="description" content="Taj Safety Nets offers premium invisible grills for balconies, windows, apartments (2mm-4mm) and cloth hangers (4ft-8ft) in Hyderabad. Professional installation in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free consultation! ☎ +91 7893987771" />
+        <meta name="keywords" content="invisible grills services, balcony grills, window grills, apartment grills, cloth hangers, pull dry cloth hangers, ceiling cloth hangers, invisible grill installation, 2mm grills, 3mm grills, 4mm grills, stainless steel grills, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
+        <meta property="og:title" content="Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad" />
+        <meta property="og:description" content="Premium invisible grills and cloth hangers installation services in Hyderabad. Professional service, quality guaranteed. Free consultation! ☎ +91 7893987771" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:description" content="Premium invisible grills and cloth hangers installation services in Hyderabad. Free consultation! ☎ +91 7893987771" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Taj Safety Nets" />
+      </Helmet>
+      <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -134,7 +149,7 @@ const Services: React.FC = () => {
               </button>
               <Link
                 to="/contact"
-                className="border-2 border-white hover:bg-white hover:text-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+                className="border-2 border-white hover:bg-white hover:text-primary-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
                 Contact Us
               </Link>
@@ -192,7 +207,7 @@ const Services: React.FC = () => {
                   <div className="space-y-3 mb-6">
                     {service.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="flex items-center">
-                        <CheckCircle className="h-5 w-5 text-green-500 mr-3 flex-shrink-0" />
+                        <CheckCircle className="h-5 w-5 text-secondary-500 mr-3 flex-shrink-0" />
                         <span className="text-gray-700">{feature}</span>
                       </div>
                     ))}
@@ -200,7 +215,7 @@ const Services: React.FC = () => {
 
                   <Link
                     to={`/services/${getServiceSlug(service.title)}`}
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center"
+                    className="w-full bg-accent-600 hover:bg-accent-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center"
                   >
                     Learn More
                     <ArrowRight className="h-5 w-5 ml-2" />
@@ -222,7 +237,7 @@ const Services: React.FC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Why Choose Steel Invisible Grills?
+              Why Choose Taj Safety Nets?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service
@@ -295,7 +310,7 @@ const Services: React.FC = () => {
                 href="https://wa.me/917893987771"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-white hover:bg-white hover:text-blue-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
+                className="border-2 border-white hover:bg-white hover:text-primary-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
                 WhatsApp Us
               </a>
@@ -304,6 +319,7 @@ const Services: React.FC = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

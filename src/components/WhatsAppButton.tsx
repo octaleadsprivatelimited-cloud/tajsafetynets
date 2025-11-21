@@ -22,7 +22,7 @@ const WhatsAppButton: React.FC = () => {
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:steelinvisiblegrillsints@gmail.com?subject=Inquiry about Invisible Grills & Cloth Hangers', '_self');
+    window.open('mailto:info@tajsafetynets.com?subject=Inquiry about Invisible Grills & Cloth Hangers - Taj Safety Nets', '_self');
   };
 
   // Don't render anything on landing page
@@ -50,7 +50,7 @@ const WhatsAppButton: React.FC = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           onClick={handleCallClick}
-          className="bg-blue-500 hover:bg-blue-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl"
+          className="bg-secondary-500 hover:bg-secondary-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl"
           aria-label="Call us"
         >
           <Phone className="h-6 w-6" />

@@ -48,11 +48,7 @@ const ArticlePage: React.FC = () => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Steel Invisible Grills",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://jara-safety-nets.vercel.app/logo.png"
-      }
+      "name": "Taj Safety Nets"
     },
     "datePublished": article.publishDate,
     "dateModified": article.publishDate,
@@ -60,7 +56,6 @@ const ArticlePage: React.FC = () => {
       "@type": "WebPage",
         "@id": `https://jara-safety-nets.vercel.app/blog/${article.slug}`
     },
-    "keywords": article.seoKeywords.join(", "),
     "articleSection": "Safety Nets",
     "wordCount": article.content.split(' ').length
   };
@@ -87,7 +82,6 @@ const ArticlePage: React.FC = () => {
       <Helmet>
         <title>{article.seoTitle}</title>
         <meta name="description" content={article.seoDescription} />
-        <meta name="keywords" content={article.seoKeywords.join(', ')} />
         <meta name="author" content={article.author} />
         
         {/* Open Graph / Facebook */}
@@ -96,7 +90,7 @@ const ArticlePage: React.FC = () => {
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={`https://jara-safety-nets.vercel.app${article.image}`} />
         <meta property="og:url" content={`https://jara-safety-nets.vercel.app/blog/${article.slug}`} />
-        <meta property="og:site_name" content="Steel Invisible Grills" />
+        <meta property="og:site_name" content="Taj Safety Nets" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -182,7 +176,7 @@ const ArticlePage: React.FC = () => {
               </div>
 
               {/* Article Excerpt */}
-              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
+              <div className="bg-primary-50 border-l-4 border-primary-600 p-6 rounded-r-lg mb-8">
                 <p className="text-lg text-gray-700 leading-relaxed">
                   {article.excerpt}
                 </p>
@@ -262,11 +256,11 @@ const ArticlePage: React.FC = () => {
                   <div className="mt-12 pt-8 border-t border-gray-200">
                     <h3 className="text-lg font-semibold text-gray-900 mb-4">Share this article</h3>
                     <div className="flex space-x-4">
-                      <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
+                      <button className="bg-accent-600 hover:bg-accent-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
                         <Share2 className="h-4 w-4 mr-2" />
                         Share
                       </button>
-                      <button className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
+                      <button className="bg-secondary-600 hover:bg-secondary-700 text-white px-4 py-2 rounded-lg transition-colors flex items-center">
                         <MessageCircle className="h-4 w-4 mr-2" />
                         WhatsApp
                       </button>

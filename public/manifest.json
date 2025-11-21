@@ -1,6 +1,6 @@
 {
-  "short_name": "Steel Invisible Grills",
-  "name": "Steel Invisible Grills - Leading Safety Nets Installation Company in Hyderabad",
+  "short_name": "Taj Safety Nets",
+  "name": "Taj Safety Nets - Leading Safety Nets Installation Company in Hyderabad",
   "description": "Professional safety nets installation services with quality assurance. Serving all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas.",
   "icons": [
     {
@@ -21,7 +21,7 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#f97316",
+  "theme_color": "#102a43",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
   "scope": "/",
