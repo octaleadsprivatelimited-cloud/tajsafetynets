@@ -4,17 +4,17 @@
   "description": "Professional safety nets installation services with quality assurance. Serving all areas of Hyderabad including Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, and surrounding areas.",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "any"
     },
     {
-      "src": "favicon.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "favicon.png",
+      "src": "images/logo.png",
       "type": "image/png",
       "sizes": "512x512"
     }
