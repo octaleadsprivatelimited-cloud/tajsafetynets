@@ -19,14 +19,14 @@ const Blog: React.FC = () => {
     <>
       <Helmet>
         <title>Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. Expert advice from Taj Safety Nets serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91-9494397102, +91-8790839401" />
+        <meta name="description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. Expert advice from Taj Safety Nets serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 8790839401" />
         <meta name="keywords" content="invisible grills blog, safety tips, installation guides, cloth hangers tips, grill maintenance, safety nets information, Taj Safety Nets blog, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety articles Hyderabad" />
         <meta property="og:title" content="Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91-9494397102, +91-8790839401" />
+        <meta property="og:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Blog - Safety Tips & Guides | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91-9494397102, +91-8790839401" />
+        <meta name="twitter:description" content="Read our blog for safety tips, installation guides, and information about invisible grills and cloth hangers in Hyderabad. ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>

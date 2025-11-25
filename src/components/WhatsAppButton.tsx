@@ -13,12 +13,12 @@ const WhatsAppButton: React.FC = () => {
     const message = encodeURIComponent(
       "Hi! I'm interested in safety nets installation. Can you provide me with more information about your services and pricing?"
     );
-    const whatsappUrl = `https://wa.me/919494397102?text=${message}`;
+    const whatsappUrl = `https://wa.me/918790839401?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
   const handleCallClick = () => {
-    window.open('tel:+919494397102', '_self');
+    window.open('tel:+918790839401', '_self');
   };
 
   const handleEmailClick = () => {

@@ -67,15 +67,15 @@ const Home: React.FC = () => {
     <>
       <Helmet>
         <title>Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets</title>
-        <meta name="description" content="Taj Safety Nets - Leading provider of pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free quote! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="description" content="Taj Safety Nets - Leading provider of pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free quote! ☎ +91 8790839401" />
         <meta name="keywords" content="pigeon safety nets Hyderabad, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets, safety net installation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg" />
         <meta property="og:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
-        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://steel-invisible-kills.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
-        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more in Hyderabad. Free quote! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more in Hyderabad. Free quote! ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -545,13 +545,13 @@ const Home: React.FC = () => {
             >
               {/* Call Button */}
               <motion.a
-                href="tel:+919494397102"
+                href="tel:+918790839401"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-accent-500/50 flex items-center justify-center min-w-[200px]"
               >
                 <Phone className="mr-2 h-5 w-5 group-hover:animate-pulse" />
-                Call Now: +91-9494397102
+                Call Now: +91 8790839401
                 <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </motion.a>
 

@@ -49,14 +49,14 @@ const ServicePage: React.FC = () => {
     <>
       <Helmet>
         <title>{service.name} - Professional Installation | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content={`${service.shortDescription} Professional installation by Taj Safety Nets in Hyderabad. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91-9494397102, +91-8790839401`} />
+        <meta name="description" content={`${service.shortDescription} Professional installation by Taj Safety Nets in Hyderabad. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91 8790839401`} />
         <meta name="keywords" content={allKeywords} />
         <meta property="og:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
-        <meta property="og:description" content={`${service.shortDescription} Professional installation in Hyderabad. Free quote! ☎ +91-9494397102, +91-8790839401`} />
+        <meta property="og:description" content={`${service.shortDescription} Professional installation in Hyderabad. Free quote! ☎ +91 8790839401`} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
-        <meta name="twitter:description" content={`${service.shortDescription} Professional installation in Hyderabad. ☎ +91-9494397102, +91-8790839401`} />
+        <meta name="twitter:description" content={`${service.shortDescription} Professional installation in Hyderabad. ☎ +91 8790839401`} />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -146,7 +146,7 @@ const ServicePage: React.FC = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </button>
                 <a
-                  href="tel:+919494397102"
+                  href="tel:+918790839401"
                   className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors flex items-center justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
@@ -430,10 +430,10 @@ const ServicePage: React.FC = () => {
               Get Free Quote
             </button>
             <a
-              href="tel:+919494397102"
+              href="tel:+918790839401"
               className="bg-white hover:bg-gray-100 text-green-600 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
             >
-              Call Now: +91-9494397102
+              Call Now: +91 8790839401
             </a>
           </div>
         </div>

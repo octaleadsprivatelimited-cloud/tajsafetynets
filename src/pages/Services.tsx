@@ -63,14 +63,14 @@ const Services: React.FC = () => {
     <>
       <Helmet>
         <title>Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Taj Safety Nets offers pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="description" content="Taj Safety Nets offers pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free consultation! ☎ +91 8790839401" />
         <meta name="keywords" content="pigeon safety nets, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
         <meta property="og:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation services in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation services in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -251,13 +251,13 @@ const Services: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+919494397102"
+                href="tel:+918790839401"
                 className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-8 py-4 rounded-lg font-semibold text-lg transition-colors"
               >
-                Call Now: +91-9494397102
+                Call Now: +91 8790839401
               </a>
               <a
-                href="https://wa.me/919494397102"
+                href="https://wa.me/918790839401"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white hover:bg-white hover:text-primary-700 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors"

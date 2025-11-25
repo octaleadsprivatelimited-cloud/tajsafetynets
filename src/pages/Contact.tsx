@@ -55,8 +55,8 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91-9494397102", "+91-8790839401", "Taj Safety Nets"],
-      action: "tel:+919494397102",
+      details: ["+91 8790839401", "Taj Safety Nets"],
+      action: "tel:+918790839401",
       color: "accent"
     },
     {
@@ -119,14 +119,14 @@ const Contact: React.FC = () => {
     <>
       <Helmet>
         <title>Contact Us - Get Free Quote | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Contact Taj Safety Nets for invisible grills and cloth hangers installation in Hyderabad. Free consultation and quote. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Phone: +91-9494397102, +91-8790839401 | Email: info@tajsafetynets.com" />
-        <meta name="keywords" content="contact Taj Safety Nets, invisible grills contact, cloth hangers contact, grill installation quote, free consultation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets contact Hyderabad, phone number, email address" />
+        <meta name="description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation and quote. Phone: +91 8790839401 | Email: info@tajsafetynets.com" />
+        <meta name="keywords" content="contact Taj Safety Nets, pigeon safety nets contact, mosquito door contact, artificial grass contact, invisible grills contact, cricket nets contact, balcony grills contact, roof waterproofing contact, cloth hangers contact, wallpapers contact, construction safety nets contact, nursery shade nets contact, children safety nets contact, mosquito door contact, installation quote, free consultation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets contact Hyderabad, phone number, email address" />
         <meta property="og:title" content="Contact Us - Get Free Quote | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Contact Taj Safety Nets for invisible grills and cloth hangers installation in Hyderabad. Free consultation! Phone: +91-9494397102, +91-8790839401" />
+        <meta property="og:description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Free consultation! Phone: +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Contact Us - Get Free Quote | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Contact Taj Safety Nets for invisible grills and cloth hangers installation in Hyderabad. Phone: +91-9494397102, +91-8790839401" />
+        <meta name="twitter:description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Phone: +91 8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -444,7 +444,7 @@ const Contact: React.FC = () => {
                 
                 <div className="space-y-4 mb-6">
                   <motion.a
-                    href="https://wa.me/919494397102"
+                    href="https://wa.me/918790839401"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.02, x: 5 }}
@@ -461,7 +461,7 @@ const Contact: React.FC = () => {
                   </motion.a>
                   
                   <motion.a
-                    href="tel:+919494397102"
+                    href="tel:+918790839401"
                     whileHover={{ scale: 1.02, x: 5 }}
                     className="group flex items-center p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300"
                   >
@@ -470,7 +470,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="flex-grow">
                       <h4 className="font-bold text-gray-900">Call Us</h4>
-                      <p className="text-sm text-gray-600 font-semibold">+91-9494397102, +91-8790839401</p>
+                      <p className="text-sm text-gray-600 font-semibold">+91 8790839401</p>
                       <p className="text-xs text-gray-500">Taj Safety Nets</p>
                     </div>
                     <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-accent-600 group-hover:translate-x-1 transition-all duration-300" />
@@ -710,7 +710,7 @@ const Contact: React.FC = () => {
               className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-8 sm:mb-12"
             >
               <motion.a
-                href="tel:+919494397102"
+                href="tel:+918790839401"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative bg-gray-900 hover:bg-gray-800 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-2xl overflow-hidden min-w-[200px] sm:min-w-[240px]"
@@ -723,7 +723,7 @@ const Contact: React.FC = () => {
               </motion.a>
               
               <motion.a
-                href="https://wa.me/919494397102"
+                href="https://wa.me/918790839401"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
@@ -747,7 +747,7 @@ const Contact: React.FC = () => {
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-gray-900 mr-2" />
                 <div>
-                  <span className="text-sm sm:text-base font-semibold">+91-9494397102, +91-8790839401</span>
+                  <span className="text-sm sm:text-base font-semibold">+91 8790839401</span>
                   <p className="text-xs text-gray-600">Taj Safety Nets</p>
                 </div>
               </div>

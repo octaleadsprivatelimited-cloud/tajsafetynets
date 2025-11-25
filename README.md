@@ -96,7 +96,7 @@ Update the following files to customize content:
 - Company information: `src/components/Footer.tsx`
 - Contact details: `src/pages/Contact.tsx`
 - Service areas: Update city arrays in multiple components
-- Phone number: Search and replace `+91-9494397102, +91-8790839401` throughout
+- Phone number: Search and replace `+91 8790839401` throughout
 
 ## 📊 SEO Features
 
@@ -129,7 +129,7 @@ The build folder will contain all production-ready files.
 
 ## 📞 Contact Information
 
-- **Phone**: +91-9494397102, +91-8790839401
+- **Phone**: +91 8790839401
 - **Email**: info@tajsafetynets.com
 - **Service Areas**: Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata
 
@@ -139,7 +139,7 @@ The build folder will contain all production-ready files.
 Create a `.env` file for environment-specific configurations:
 ```env
 REACT_APP_COMPANY_NAME=Taj Safety Nets
-REACT_APP_PHONE_NUMBER=+919494397102
+REACT_APP_PHONE_NUMBER=+918790839401
 REACT_APP_EMAIL=info@tajsafetynets.com
 ```
 
@@ -173,7 +173,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 ## 🤝 Contributing
 
 For contributions and collaboration, please contact us directly:
-- Phone: +91-9494397102, +91-8790839401
+- Phone: +91 8790839401
 - Email: info@tajsafetynets.com (Taj Safety Nets)
 
 ## 📄 License
@@ -184,8 +184,8 @@ This project is licensed under the MIT License.
 
 For support and questions:
 
-- Phone: +91-9494397102, +91-8790839401
-- WhatsApp: +91-9494397102
+- Phone: +91 8790839401
+- WhatsApp: +91 8790839401
 
 ---
 
