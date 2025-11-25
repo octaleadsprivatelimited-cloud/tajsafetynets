@@ -111,11 +111,11 @@ const Navbar: React.FC = () => {
           {/* Mobile Phone Number and Menu - Only visible on small screens */}
           <div className="lg:hidden flex items-center space-x-3">
             <a 
-              href="tel:+917893987771" 
+              href="tel:+919494397102" 
               className="flex items-center space-x-1 text-white hover:text-gray-200 transition-colors text-xs font-semibold"
             >
               <Phone className="h-3.5 w-3.5" />
-              <span>+91 7893987771</span>
+              <span>+91-9494397102</span>
             </a>
             
             {/* Mobile Menu Button */}

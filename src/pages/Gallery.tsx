@@ -61,14 +61,14 @@ const Gallery: React.FC = () => {
     <>
       <Helmet>
         <title>Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. See completed projects in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Quality workmanship showcased. ☎ +91 7893987771" />
+        <meta name="description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. See completed projects in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Quality workmanship showcased. ☎ +91-9494397102, +91-8790839401" />
         <meta name="keywords" content="invisible grills gallery, cloth hangers gallery, grill installation photos, safety nets projects, balcony grills images, window grills photos, apartment grills gallery, Taj Safety Nets projects, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, completed projects Hyderabad" />
         <meta property="og:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. Quality workmanship showcased. ☎ +91 7893987771" />
+        <meta property="og:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. Quality workmanship showcased. ☎ +91-9494397102, +91-8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. ☎ +91 7893987771" />
+        <meta name="twitter:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. ☎ +91-9494397102, +91-8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -421,7 +421,7 @@ const Gallery: React.FC = () => {
               
               {/* Call Now Button */}
               <motion.a
-                href="tel:+917893987771"
+                href="tel:+919494397102"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative bg-white/10 backdrop-blur-md border-2 border-white/30 hover:border-white/50 text-white px-8 sm:px-10 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center hover:bg-white/20 overflow-hidden min-w-[200px] sm:min-w-[240px]"
@@ -441,7 +441,7 @@ const Gallery: React.FC = () => {
               className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 mb-8 sm:mb-12"
             >
               <a
-                href="https://wa.me/917893987771"
+                href="https://wa.me/919494397102"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center px-4 sm:px-6 py-3 rounded-xl bg-white/5 backdrop-blur-sm border border-white/20 hover:bg-white/10 transition-all duration-300"
@@ -450,11 +450,11 @@ const Gallery: React.FC = () => {
                 <span className="text-sm sm:text-base font-semibold text-white">WhatsApp</span>
               </a>
               <a
-                href="tel:+917893987771"
+                href="tel:+919494397102"
                 className="group flex items-center px-4 sm:px-6 py-3 rounded-xl bg-white/5 backdrop-blur-sm border border-white/20 hover:bg-white/10 transition-all duration-300"
               >
                 <Phone className="h-5 w-5 mr-2 text-accent-400" />
-                <span className="text-sm sm:text-base font-semibold text-white">+91 7893987771</span>
+                <span className="text-sm sm:text-base font-semibold text-white">+91-9494397102, +91-8790839401</span>
               </a>
             </motion.div>
 

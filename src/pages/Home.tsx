@@ -66,15 +66,15 @@ const Home: React.FC = () => {
     <>
       <Helmet>
         <title>Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets</title>
-        <meta name="description" content="Taj Safety Nets - Leading provider of premium invisible grills (2mm-4mm) and cloth hangers (4ft-8ft) in Hyderabad. Professional installation in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91 7893987771" />
+        <meta name="description" content="Taj Safety Nets - Leading provider of premium invisible grills (2mm-4mm) and cloth hangers (4ft-8ft) in Hyderabad. Professional installation in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91-9494397102, +91-8790839401" />
         <meta name="keywords" content="invisible grills Hyderabad, balcony safety grills, window grills, apartment grills, cloth hangers Hyderabad, pull dry cloth hangers, ceiling cloth hangers, Taj Safety Nets, invisible grill installation, stainless steel grills, 2mm invisible grills, 3mm invisible grills, 4mm invisible grills, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets Hyderabad" />
         <meta property="og:title" content="Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets" />
-        <meta property="og:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Serving all areas with quality assurance. Free consultation! ☎ +91 7893987771" />
+        <meta property="og:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Serving all areas with quality assurance. Free consultation! ☎ +91-9494397102, +91-8790839401" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://steel-invisible-kills.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets" />
-        <meta name="twitter:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Free quote! ☎ +91 7893987771" />
+        <meta name="twitter:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Free quote! ☎ +91-9494397102, +91-8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -617,13 +617,13 @@ const Home: React.FC = () => {
             >
               {/* Call Button */}
               <motion.a
-                href="tel:+917893987771"
+                href="tel:+919494397102"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:shadow-accent-500/50 flex items-center justify-center min-w-[200px]"
               >
                 <Phone className="mr-2 h-5 w-5 group-hover:animate-pulse" />
-                Call Now: +91 7893987771
+                Call Now: +91-9494397102
                 <div className="absolute inset-0 rounded-xl bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </motion.a>
 

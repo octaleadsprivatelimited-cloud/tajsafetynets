@@ -72,14 +72,14 @@ const About: React.FC = () => {
     <>
       <Helmet>
         <title>About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad</title>
-        <meta name="description" content="Learn about Taj Safety Nets - Hyderabad's trusted invisible grill installation company. 25+ years experience, 5200+ projects, 5100+ happy clients. Quality certified, professional service in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 7893987771" />
+        <meta name="description" content="Learn about Taj Safety Nets - Hyderabad's trusted invisible grill installation company. 25+ years experience, 5200+ projects, 5100+ happy clients. Quality certified, professional service in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91-9494397102, +91-8790839401" />
         <meta name="keywords" content="Taj Safety Nets about, invisible grill company Hyderabad, safety nets company, professional grill installation, certified invisible grills, quality assurance, ISO certified, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, experienced grill installers, trusted safety nets provider" />
         <meta property="og:title" content="About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad" />
-        <meta property="og:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service across Hyderabad. ☎ +91 7893987771" />
+        <meta property="og:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service across Hyderabad. ☎ +91-9494397102, +91-8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad" />
-        <meta name="twitter:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service. ☎ +91 7893987771" />
+        <meta name="twitter:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service. ☎ +91-9494397102, +91-8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -861,7 +861,7 @@ const About: React.FC = () => {
             >
               {/* Call Button */}
               <motion.a
-                href="tel:+917893987771"
+                href="tel:+919494397102"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="group relative bg-gradient-to-r from-accent-500 to-accent-600 text-gray-900 px-8 sm:px-10 py-4 sm:py-5 rounded-xl sm:rounded-2xl font-bold text-base sm:text-lg transition-all duration-300 inline-flex items-center justify-center shadow-lg hover:shadow-2xl hover:shadow-accent-500/50 overflow-hidden min-w-[200px] sm:min-w-[240px]"
@@ -879,7 +879,7 @@ const About: React.FC = () => {
 
               {/* WhatsApp Button */}
               <motion.a
-                href="https://wa.me/917893987771"
+                href="https://wa.me/919494397102"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
@@ -928,7 +928,7 @@ const About: React.FC = () => {
               <div className="inline-flex items-center px-6 py-3 rounded-full bg-white/5 backdrop-blur-sm border border-white/10">
                 <Phone className="h-5 w-5 text-accent-400 mr-3" />
                 <span className="text-white font-semibold text-base sm:text-lg">
-                  +91 7893987771
+                  +91-9494397102, +91-8790839401
                 </span>
               </div>
             </motion.div>

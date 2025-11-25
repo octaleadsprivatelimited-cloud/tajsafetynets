@@ -222,7 +222,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ location, articleTitle, class
         <div className="flex items-center justify-center space-x-6 text-sm text-gray-600">
           <div className="flex items-center">
             <Phone className="h-4 w-4 mr-2" />
-            <span>+91 7893987771</span>
+            <span>+91-9494397102, +91-8790839401</span>
           </div>
           <div className="flex items-center">
             <Mail className="h-4 w-4 mr-2" />

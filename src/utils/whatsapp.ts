@@ -1,5 +1,5 @@
 export const openWhatsAppQuote = () => {
-  const phoneNumber = '917893987771';
+  const phoneNumber = '919494397102';
   const message = encodeURIComponent(
     'Hi! I would like to get a quote for Premium Invisible Grills and Cloth Hangers installation from Taj Safety Nets. Please provide me with more information about your services.'
   );
