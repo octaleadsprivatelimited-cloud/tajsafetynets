@@ -10,117 +10,67 @@ import {
   Wrench, 
   Shield, 
   CheckCircle, 
-  ArrowRight
+  ArrowRight,
+  Bird,
+  Bug,
+  Sprout,
+  Eye,
+  Activity,
+  Home,
+  Droplets,
+  Shirt,
+  Image as ImageIcon,
+  Building,
+  Flower2,
+  Baby,
+  DoorOpen
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
+import { services as allServices } from '../data/services';
 
 const Services: React.FC = () => {
-  // Function to convert service title to slug
-  const getServiceSlug = (title: string): string => {
-    const slugMap: { [key: string]: string } = {
-      "Invisible Grill for Balconies": "invisible-grill-for-balconies",
-      "Invisible Grill for Windows": "invisible-grill-for-windows", 
-      "Invisible Grill for Apartments": "invisible-grill-for-apartments",
-      "Pull & Dry Cloth Hangers": "pull-dry-cloth-hangers",
-      "Ceiling Cloth Hangers": "ceiling-cloth-hangers",
-      "Pull & Dry Cloth Hangers for Balconies": "pull-dry-cloth-hangers-for-balconies"
+  // Icon mapping for services
+  const getServiceIcon = (category: string, name: string) => {
+    const iconMap: { [key: string]: JSX.Element } = {
+      "Pigeon Safety Nets": <Bird className="h-16 w-16 text-primary-600" />,
+      "Mosquito Door and Window": <Bug className="h-16 w-16 text-primary-600" />,
+      "Artificial Grass": <Sprout className="h-16 w-16 text-primary-600" />,
+      "Invisible Grills": <Eye className="h-16 w-16 text-primary-600" />,
+      "Cricket Nets": <Activity className="h-16 w-16 text-primary-600" />,
+      "Balcony Grills": <Home className="h-16 w-16 text-primary-600" />,
+      "Top Roofs & Waterproof Sheets": <Droplets className="h-16 w-16 text-primary-600" />,
+      "Cloth Hanger for Ceiling and Wall Brackets": <Shirt className="h-16 w-16 text-primary-600" />,
+      "Wallpapers": <ImageIcon className="h-16 w-16 text-primary-600" />,
+      "Construction Safety Nets": <Building className="h-16 w-16 text-primary-600" />,
+      "Nursery Shade Nets": <Flower2 className="h-16 w-16 text-primary-600" />,
+      "Children Safety Nets": <Baby className="h-16 w-16 text-primary-600" />,
+      "Folding Aluminium Mosquito Door": <DoorOpen className="h-16 w-16 text-primary-600" />
     };
-    return slugMap[title] || title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '');
+    return iconMap[name] || <Shield className="h-16 w-16 text-primary-600" />;
   };
-  
-  const services = [
-    {
-      icon: <Shield className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/invisible-grill-balconies.jpg",
-      title: "Invisible Grill for Balconies",
-      description: "Premium invisible grills for balconies. Choose from 5 wire sizes (2mm, 2.5mm, 3mm, 3.5mm, 4mm) - thicker wires for more strength, thinner for better invisibility",
-      features: [
-        "Available in 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-        "Nearly invisible design",
-        "Weather & rust resistant",
-        "Child & pet safe",
-        "Maintains your view"
-      ],
-    },
-    {
-      icon: <Target className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/invisible-grill-windows.jpg",
-      title: "Invisible Grill for Windows",
-      description: "Elegant window grills with 5 wire thickness options (2mm, 2.5mm, 3mm, 3.5mm, 4mm). Provides security without blocking sunlight or views - you won't even notice they're there!",
-      features: [
-        "Wire sizes: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-        "100% light & air passage",
-        "Rust-proof stainless steel",
-        "Custom fit any window",
-        "Strong yet invisible"
-      ],
-    },
-    {
-      icon: <HardHat className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/invisible-grill-apartments.webp",
-      title: "Invisible Grill for Apartments",
-      description: "Complete apartment grill solutions available in 2mm, 2.5mm, 3mm, 3.5mm, and 4mm wire sizes. Perfect for high-rise safety - protects children and pets without blocking your beautiful view",
-      features: [
-        "Multiple sizes: 2mm to 4mm wires",
-        "Bulk installation discounts",
-        "Uniform appearance",
-        "Weather & rust proof",
-        "Professional team installation"
-      ],
-    },
-    {
-      icon: <Settings className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      title: "Pull & Dry Cloth Hangers",
-      description: "Space-saving pull & dry hangers. Available in 4ft, 5ft, 6ft, 7ft, 8ft sizes with 3 or 6 rods - pull out to dry, fold back when done!",
-      features: [
-        "Sizes: 4ft, 5ft, 6ft, 7ft, 8ft",
-        "3 rods or 6 rods options",
-        "Rust-proof stainless steel",
-        "Space-saving fold design",
-        "Weather resistant"
-      ],
-    },
-    {
-      icon: <Wrench className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
-      title: "Ceiling Cloth Hangers",
-      description: "Ceiling hangers that save wall space! Choose from 4ft to 8ft lengths with 3 or 6 rods. Lower to load clothes, raise to dry - smart solution!",
-      features: [
-        "Lengths: 4ft, 5ft, 6ft, 7ft, 8ft",
-        "3 or 6 rods capacity",
-        "Ceiling-mounted - saves wall space",
-        "Pulldown & raise mechanism",
-        "Weather resistant"
-      ],
-    },
-    {
-      icon: <TreePine className="h-16 w-16 text-primary-600" />,
-      image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
-      title: "Pull & Dry Cloth Hangers for Balconies",
-      description: "Balcony-specific hangers in 4ft to 8ft sizes with 3 or 6 rods. Extra weather-resistant for outdoor balcony use. Perfect for apartments!",
-      features: [
-        "Sizes: 4ft, 5ft, 6ft, 7ft, 8ft",
-        "3 or 6 rods for laundry capacity",
-        "Made for outdoor balconies",
-        "Sun & rain resistant",
-        "Space-saving fold design"
-      ],
-    }
-  ];
+
+  // Convert services from data file to display format
+  const services = allServices.map(service => ({
+    icon: getServiceIcon(service.category, service.name),
+    image: service.image,
+    title: service.name,
+    description: service.shortDescription,
+    features: service.features.slice(0, 5), // Show first 5 features
+    slug: service.slug
+  }));
 
   return (
     <>
       <Helmet>
-        <title>Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Taj Safety Nets offers premium invisible grills for balconies, windows, apartments (2mm-4mm) and cloth hangers (4ft-8ft) in Hyderabad. Professional installation in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free consultation! ☎ +91-9494397102, +91-8790839401" />
-        <meta name="keywords" content="invisible grills services, balcony grills, window grills, apartment grills, cloth hangers, pull dry cloth hangers, ceiling cloth hangers, invisible grill installation, 2mm grills, 3mm grills, 4mm grills, stainless steel grills, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
-        <meta property="og:title" content="Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Premium invisible grills and cloth hangers installation services in Hyderabad. Professional service, quality guaranteed. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <title>Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad</title>
+        <meta name="description" content="Taj Safety Nets offers pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="keywords" content="pigeon safety nets, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
+        <meta property="og:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
+        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation services in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Our Services - Invisible Grills & Cloth Hangers | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Premium invisible grills and cloth hangers installation services in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="twitter:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation services in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -135,10 +85,10 @@ const Services: React.FC = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Our <span className="text-yellow-400">Invisible Grill</span> & <span className="text-yellow-400">Cloth Hanger</span> Services
+              Our <span className="text-yellow-400">Safety Nets</span> & <span className="text-yellow-400">Installation</span> Services
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Professional invisible grill installation and cloth hanger solutions for modern homes and apartments
+              Professional safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation solutions
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
@@ -171,7 +121,7 @@ const Services: React.FC = () => {
               Our Premium Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service
+              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more with unmatched quality and service
             </p>
           </motion.div>
 
@@ -214,7 +164,7 @@ const Services: React.FC = () => {
                   </div>
 
                   <Link
-                    to={`/services/${getServiceSlug(service.title)}`}
+                    to={`/services/${service.slug}`}
                     className="w-full bg-accent-600 hover:bg-accent-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors flex items-center justify-center"
                   >
                     Learn More
@@ -240,7 +190,7 @@ const Services: React.FC = () => {
               Why Choose Taj Safety Nets?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service
+              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors with unmatched quality and service
             </p>
           </motion.div>
 

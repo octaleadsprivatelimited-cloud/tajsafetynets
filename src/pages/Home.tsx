@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { openWhatsAppQuote } from '../utils/whatsapp';
 import HeroSlider from '../components/HeroSlider';
+import { getPopularServices } from '../data/services';
 
 const Home: React.FC = () => {
   const { scrollY } = useScroll();
@@ -65,16 +66,16 @@ const Home: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets</title>
-        <meta name="description" content="Taj Safety Nets - Leading provider of premium invisible grills (2mm-4mm) and cloth hangers (4ft-8ft) in Hyderabad. Professional installation in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91-9494397102, +91-8790839401" />
-        <meta name="keywords" content="invisible grills Hyderabad, balcony safety grills, window grills, apartment grills, cloth hangers Hyderabad, pull dry cloth hangers, ceiling cloth hangers, Taj Safety Nets, invisible grill installation, stainless steel grills, 2mm invisible grills, 3mm invisible grills, 4mm invisible grills, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets Hyderabad" />
-        <meta property="og:title" content="Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets" />
-        <meta property="og:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Serving all areas with quality assurance. Free consultation! ☎ +91-9494397102, +91-8790839401" />
+        <title>Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets</title>
+        <meta name="description" content="Taj Safety Nets - Leading provider of pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free quote! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="keywords" content="pigeon safety nets Hyderabad, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets, safety net installation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg" />
+        <meta property="og:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
+        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation! ☎ +91-9494397102, +91-8790839401" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://steel-invisible-kills.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Premium Invisible Grills & Cloth Hangers in Hyderabad | Taj Safety Nets" />
-        <meta name="twitter:description" content="Professional invisible grill installation and cloth hanger services in Hyderabad. Free quote! ☎ +91-9494397102, +91-8790839401" />
+        <meta name="twitter:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
+        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more in Hyderabad. Free quote! ☎ +91-9494397102, +91-8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -135,8 +136,8 @@ const Home: React.FC = () => {
                       transition: { duration: 0.8 }
                     }}
                   >
-                Invisible Grills & 
-                  <span className="text-accent-400 font-semibold"> Cloth Hangers</span>
+                Safety Nets & 
+                  <span className="text-accent-400 font-semibold"> Installation Services</span>
               </motion.h1>
               
               {/* Company Tagline with Moving Background Effect */}
@@ -155,7 +156,7 @@ const Home: React.FC = () => {
                         transition: { duration: 0.8 }
                       }}
                     >
-                  THE LEADING INVISIBLE GRILL MANUFACTURERS AND INSTALLERS
+                  THE LEADING SAFETY NETS AND INSTALLATION COMPANY
                 </motion.div>
                 <motion.div
                   className="text-base sm:text-lg lg:text-xl text-gray-200 mt-1 sm:mt-2"
@@ -171,7 +172,7 @@ const Home: React.FC = () => {
                     transition: { duration: 0.8 }
                   }}
                 >
-                  Professional Invisible Grill Installation & Cloth Hanger Solutions
+                  Professional Safety Nets, Mosquito Doors, Artificial Grass, Invisible Grills & More
                 </motion.div>
               </div>
               
@@ -243,7 +244,7 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              Our Premium Invisible Grill Solutions
+              Our Premium Services
             </motion.h2>
             <motion.p 
               className="text-xl text-gray-600 max-w-3xl mx-auto"
@@ -251,112 +252,39 @@ const Home: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Transform your home with our premium invisible grills and cloth hangers - perfect for balconies, windows, apartments, and modern living spaces
+              Comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors
             </motion.p>
           </motion.div>
           
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
-            {/* Invisible Grill for Balconies */}
-            <Link to="/services/invisible-grill-for-balconies">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
-              >
-                <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                  {/* Invisible Grill for Balconies Image */}
-                  <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: `url('/images/safety-nets/invisible-grill-balconies.jpg')`
-                  }}></div>
-                  
-                  {/* Dark Overlay for better text visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>
-                  
-                  <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center px-2">
-                    <h3 className="text-sm sm:text-base md:text-xl font-semibold drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Balcony Grills</h3>
-                    <p className="text-xs sm:text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Premium invisible</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
+            {getPopularServices().slice(0, 8).map((service, index) => (
+              <Link key={service.id} to={`/services/${service.slug}`}>
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
+                >
+                  <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
+                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+                      backgroundImage: `url('${service.image}')`
+                    }}></div>
+                    
+                    {/* Dark Overlay for better text visibility */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>
+                    
+                    <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center px-2">
+                      <h3 className="text-xs sm:text-sm md:text-base font-semibold drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
+                        {service.name.length > 25 ? service.name.substring(0, 25) + '...' : service.name}
+                      </h3>
+                      <p className="text-xs sm:text-xs opacity-90 drop-shadow-lg mt-1" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>
+                        {service.category}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-            </Link>
-
-            {/* Invisible Grill for Windows */}
-            <Link to="/services/invisible-grill-for-windows">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
-              >
-                <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                  {/* Invisible Grill for Windows Image */}
-                  <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: `url('/images/safety-nets/invisible-grill-windows.jpg')`,
-                    backgroundPosition: 'center 30%'
-                  }}></div>
-                  
-                  {/* Dark Overlay for better text visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>
-                  
-                  <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center px-2">
-                    <h3 className="text-sm sm:text-base md:text-xl font-semibold drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Window Grills</h3>
-                    <p className="text-xs sm:text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Elegant security</p>
-                  </div>
-                </div>
-              </motion.div>
-            </Link>
-
-            {/* Pull & Dry Cloth Hangers */}
-            <Link to="/services/pull-dry-cloth-hangers">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
-              >
-                <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                  {/* Pull & Dry Cloth Hangers Image */}
-                  <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: `url('/images/safety-nets/pull-dry-cloth-hangers.jpg')`
-                  }}></div>
-                  
-                  {/* Dark Overlay for better text visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>
-                  
-                  <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center px-2">
-                    <h3 className="text-sm sm:text-base md:text-xl font-semibold drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Pull & Dry Hangers</h3>
-                    <p className="text-xs sm:text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Space-saving</p>
-                  </div>
-                </div>
-              </motion.div>
-            </Link>
-
-            {/* Ceiling Cloth Hangers */}
-            <Link to="/services/ceiling-cloth-hangers">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
-              >
-                <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                  {/* Ceiling Cloth Hangers Image */}
-                  <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                    backgroundImage: `url('/images/safety-nets/ceiling-cloth-hangers.jpg')`
-                  }}></div>
-                  
-                  {/* Dark Overlay for better text visibility */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>
-                  
-                  <div className="text-center text-white relative z-10 h-full flex flex-col items-center justify-center px-2">
-                    <h3 className="text-sm sm:text-base md:text-xl font-semibold drop-shadow-lg group-hover:scale-110 transition-transform duration-300" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ceiling Hangers</h3>
-                    <p className="text-xs sm:text-sm opacity-90 drop-shadow-lg" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.8)'}}>Ceiling-mounted</p>
-                  </div>
-                </div>
-              </motion.div>
-            </Link>
-
+                </motion.div>
+              </Link>
+            ))}
           </div>
           
           {/* View More Services Button */}
@@ -411,7 +339,7 @@ const Home: React.FC = () => {
                   Why Choose <span className="text-primary-700">Taj Safety Nets?</span>
                 </h2>
                 <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                  We provide comprehensive invisible grill and cloth hanger solutions with unmatched quality and service - from balconies to windows, apartments, and modern living spaces across Hyderabad
+                  We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors with unmatched quality and service across Hyderabad
                 </p>
               </motion.div>
 

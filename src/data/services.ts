@@ -21,29 +21,234 @@ export interface Service {
 
 export const services: Service[] = [
   {
-    id: "invisible-grill-for-balconies",
-    name: "Invisible Grill for Balconies",
-    slug: "invisible-grill-for-balconies",
-    description: "Premium invisible grills designed specifically for balconies, providing maximum security while maintaining unobstructed views. Our stainless steel grills are available in multiple wire thicknesses (2mm, 2.5mm, 3mm, 3.5mm, and 4mm) to suit your specific safety needs and budget. These nearly invisible cables blend seamlessly with modern architecture, protecting your loved ones without compromising your view.",
-    shortDescription: "Premium invisible grills for balconies - Available in 2mm to 4mm wire sizes",
+    id: "pigeon-safety-nets",
+    name: "Pigeon Safety Nets",
+    slug: "pigeon-safety-nets",
+    description: "Professional pigeon safety nets installation to protect your property from pigeons and other birds. Our high-quality nets prevent birds from entering balconies, windows, and open areas while maintaining ventilation and visibility. Made from durable, UV-resistant materials that last for years.",
+    shortDescription: "Professional pigeon safety nets to protect your property from birds",
+    features: [
+      "UV-resistant and weatherproof material",
+      "Transparent - maintains visibility",
+      "Durable and long-lasting",
+      "Easy to clean and maintain",
+      "Custom fit for any area",
+      "Professional installation",
+      "Child and pet safe",
+      "Prevents bird entry completely"
+    ],
+    applications: [
+      "Balconies",
+      "Windows",
+      "Open areas",
+      "Terraces",
+      "Ventilation areas",
+      "Duct areas",
+      "Apartment complexes",
+      "Commercial buildings"
+    ],
+    benefits: [
+      "Protects from bird droppings",
+      "Prevents health hazards",
+      "Maintains cleanliness",
+      "Protects property from damage",
+      "Maintains ventilation",
+      "Long-lasting solution",
+      "Affordable protection",
+      "Easy maintenance"
+    ],
+    materials: [
+      "High-quality nylon/polyethylene nets",
+      "UV-resistant material",
+      "Weatherproof coating",
+      "Stainless steel mounting clips",
+      "Heavy-duty ropes and cables",
+      "Rust-proof hardware"
+    ],
+    installation: [
+      "Site assessment",
+      "Custom measurement",
+      "Professional installation",
+      "Quality inspection",
+      "Safety testing"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Inspection for damage",
+      "Annual maintenance check",
+      "Emergency repairs",
+      "Hardware maintenance"
+    ],
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/pigeon-safety-nets.png",
+    heroImage: "/images/safety-nets/pigeon-safety-nets.png",
+    gallery: [
+      "/images/safety-nets/pigeon-safety-nets.png"
+    ],
+    priceRange: "₹15-25 per sq ft",
+    category: "Safety Nets",
+    popular: true
+  },
+  {
+    id: "mosquito-door-and-window",
+    name: "Mosquito Door and Window",
+    slug: "mosquito-door-and-window",
+    description: "Effective mosquito nets for doors and windows to keep mosquitoes and insects away while allowing fresh air and natural light. Available in various designs including sliding, magnetic, and fixed installations. Perfect for homes, offices, and commercial spaces.",
+    shortDescription: "Mosquito nets for doors and windows - keep insects away naturally",
+    features: [
+      "Multiple installation types: sliding, magnetic, fixed",
+      "Fine mesh - blocks mosquitoes completely",
+      "Allows fresh air and natural light",
+      "Easy to open and close",
+      "Durable and long-lasting",
+      "Custom fit for any door/window",
+      "Easy to clean",
+      "Child and pet safe"
+    ],
+    applications: [
+      "Main doors",
+      "Bedroom windows",
+      "Living room windows",
+      "Kitchen windows",
+      "Bathroom windows",
+      "Office spaces",
+      "Commercial buildings",
+      "Hospitals and clinics"
+    ],
+    benefits: [
+      "Protection from mosquitoes",
+      "Prevents mosquito-borne diseases",
+      "Allows ventilation",
+      "Natural light passage",
+      "Easy to use",
+      "Low maintenance",
+      "Affordable solution",
+      "Long-lasting protection"
+    ],
+    materials: [
+      "Fine mesh fabric (fiberglass/polyester)",
+      "Aluminum or steel frames",
+      "Magnetic strips (for magnetic doors)",
+      "Roller mechanism (for sliding)",
+      "Stainless steel hardware",
+      "UV-resistant mesh"
+    ],
+    installation: [
+      "Door/window measurement",
+      "Frame fabrication",
+      "Professional installation",
+      "Functionality testing",
+      "Quality inspection"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Mesh inspection",
+      "Frame maintenance",
+      "Hardware lubrication",
+      "Annual service check"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/home-solutions/mosquito-door-window.png",
+    heroImage: "/images/home-solutions/mosquito-door-window.png",
+    gallery: [
+      "/images/home-solutions/mosquito-door-window.png"
+    ],
+    priceRange: "₹80-150 per sq ft",
+    category: "Mosquito Nets",
+    popular: true
+  },
+  {
+    id: "artificial-grass",
+    name: "Artificial Grass",
+    slug: "artificial-grass",
+    description: "Premium artificial grass installation for lawns, balconies, terraces, and commercial spaces. Our high-quality synthetic grass looks and feels like natural grass but requires zero maintenance. Perfect for areas where natural grass is difficult to maintain.",
+    shortDescription: "Premium artificial grass - zero maintenance, always green",
+    features: [
+      "Looks and feels like natural grass",
+      "Zero maintenance required",
+      "UV-resistant and weatherproof",
+      "Drainage system included",
+      "Pet and child friendly",
+      "Custom fit for any area",
+      "Long-lasting (10+ years)",
+      "Water-saving solution"
+    ],
+    applications: [
+      "Residential lawns",
+      "Balconies",
+      "Terraces",
+      "Rooftops",
+      "Playgrounds",
+      "Commercial spaces",
+      "Sports areas",
+      "Landscaping projects"
+    ],
+    benefits: [
+      "No watering needed",
+      "No mowing required",
+      "Always green and fresh",
+      "Saves water",
+      "Low maintenance cost",
+      "Durable and long-lasting",
+      "Pet-friendly",
+      "Increases property value"
+    ],
+    materials: [
+      "Premium synthetic grass fibers",
+      "UV-resistant material",
+      "Drainage backing",
+      "Shock-absorbing underlay",
+      "Installation adhesive",
+      "Professional-grade materials"
+    ],
+    installation: [
+      "Site preparation",
+      "Base leveling",
+      "Drainage setup",
+      "Grass installation",
+      "Finishing and trimming",
+      "Quality inspection"
+    ],
+    maintenance: [
+      "Occasional brushing",
+      "Rinse with water",
+      "Remove debris",
+      "Annual inspection",
+      "Minor repairs if needed"
+    ],
+    warranty: "5 years warranty on materials and workmanship",
+    image: "/images/home-solutions/artificial-grass.png",
+    heroImage: "/images/home-solutions/artificial-grass.png",
+    gallery: [
+      "/images/home-solutions/artificial-grass.png"
+    ],
+    priceRange: "₹80-150 per sq ft",
+    category: "Landscaping",
+    popular: true
+  },
+  {
+    id: "invisible-grills",
+    name: "Invisible Grills",
+    slug: "invisible-grills",
+    description: "Premium invisible grills providing maximum security while maintaining unobstructed views. Available in multiple wire thicknesses (2mm, 2.5mm, 3mm, 3.5mm, and 4mm) to suit your specific safety needs. These nearly invisible cables blend seamlessly with modern architecture, protecting your loved ones without compromising your view.",
+    shortDescription: "Premium invisible grills - Available in 2mm to 4mm wire sizes",
     features: [
       "Available in 5 wire sizes: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
       "High-grade stainless steel cables",
       "Nearly invisible - maintains your view",
       "Weather & rust resistant",
       "Professional installation included",
-      "Customized to fit any balcony size",
+      "Customized to fit any size",
       "10+ years durability",
       "Child & pet safe design"
     ],
     applications: [
       "Residential balconies",
       "Apartment balconies",
+      "Windows",
       "High-rise buildings",
       "Modern homes",
-      "Commercial balconies",
+      "Commercial spaces",
       "Penthouse terraces",
-      "Duplex balconies",
       "Villa balconies"
     ],
     benefits: [
@@ -59,7 +264,7 @@ export const services: Service[] = [
     materials: [
       "Grade 316 marine-grade stainless steel wires",
       "Wire thickness options: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-      "High-tensile strength cables (can hold 150+ kg)",
+      "High-tensile strength cables",
       "Corrosion-resistant mounting hardware",
       "UV-resistant protective coating",
       "Premium aluminum/steel mounting brackets"
@@ -79,200 +284,265 @@ export const services: Service[] = [
       "Emergency repair services"
     ],
     warranty: "5 years warranty on materials and workmanship",
-    image: "/images/safety-nets/invisible-grill-balconies.jpg",
-    heroImage: "/images/safety-nets/invisible-grill-balconies.jpg",
+    image: "/images/safety-nets/invisible-grills.png",
+    heroImage: "/images/safety-nets/invisible-grills.png",
     gallery: [
-      "/images/safety-nets/invisible-grill-balconies.jpg",
-      "/images/safety-nets/invisible-grill-windows.jpg",
-      "/images/safety-nets/invisible-grill-apartments.webp"
+      "/images/safety-nets/invisible-grills.png"
     ],
     priceRange: "₹80-120 per sq ft",
     category: "Invisible Grills",
     popular: true
   },
   {
-    id: "invisible-grill-for-windows",
-    name: "Invisible Grill for Windows",
-    slug: "invisible-grill-for-windows",
-    description: "Elegant invisible grills for windows that provide security without blocking natural light or views. Choose from 5 wire thickness options (2mm, 2.5mm, 3mm, 3.5mm, and 4mm) based on your window size and security requirements. These transparent grills are perfect for modern homes where aesthetics and safety go hand in hand - you get full protection without the cage-like appearance of traditional grills.",
-    shortDescription: "Elegant window grills - Available in 2mm to 4mm wire thickness options",
+    id: "cricket-nets",
+    name: "Cricket Nets",
+    slug: "cricket-nets",
+    description: "Professional cricket practice nets for training and practice sessions. Our high-quality nets are designed to withstand powerful shots and provide safe practice environments. Available in various sizes and configurations for individual practice or team training.",
+    shortDescription: "Professional cricket practice nets for safe training sessions",
     features: [
-      "5 wire size options: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-      "Nearly invisible - no obstruction to views",
-      "Allows 100% natural light & air flow",
-      "Rust-proof stainless steel construction",
-      "Custom fit for any window size",
-      "Easy to clean & maintain",
-      "Modern aesthetic appeal",
-      "Strong security without bulky look"
+      "Heavy-duty netting material",
+      "Withstands powerful shots",
+      "Multiple size options",
+      "Weather-resistant",
+      "UV-protected",
+      "Easy installation",
+      "Long-lasting durability",
+      "Professional grade quality"
     ],
     applications: [
-      "Bedroom windows",
-      "Living room windows",
-      "Kitchen windows",
-      "Bathroom windows",
-      "Office windows",
-      "Commercial windows",
-      "High-rise windows",
-      "Ground floor windows"
+      "Cricket practice areas",
+      "Sports academies",
+      "Schools and colleges",
+      "Residential complexes",
+      "Sports clubs",
+      "Training facilities",
+      "Stadiums",
+      "Backyard practice areas"
     ],
     benefits: [
-      "Unobstructed views",
-      "Natural light passage",
-      "Enhanced security",
-      "Modern appearance",
-      "Easy maintenance",
-      "Weather protection",
-      "Child safety",
-      "Property value increase"
+      "Safe practice environment",
+      "Prevents ball loss",
+      "Protects surrounding areas",
+      "Durable and long-lasting",
+      "Weather-resistant",
+      "Easy to maintain",
+      "Professional quality",
+      "Affordable solution"
     ],
     materials: [
-      "Grade 316 marine-grade stainless steel wires",
-      "Wire thickness: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-      "High-tensile strength cables (holds 150+ kg)",
-      "Anti-corrosion mounting brackets",
-      "Weather & UV resistant coating",
-      "Premium mounting hardware"
+      "Heavy-duty nylon netting",
+      "UV-resistant material",
+      "Steel poles and frames",
+      "Rust-proof hardware",
+      "High-tensile ropes",
+      "Professional-grade materials"
     ],
     installation: [
-      "Window measurement",
-      "Custom grill fabrication",
-      "Professional installation",
+      "Site assessment",
+      "Custom sizing",
+      "Frame installation",
+      "Net installation",
       "Quality inspection",
-      "Safety verification"
+      "Safety testing"
     ],
     maintenance: [
-      "Regular cleaning",
-      "Inspection for damage",
-      "Hardware maintenance",
-      "Annual service check",
+      "Regular inspection",
+      "Net repair if needed",
+      "Frame maintenance",
+      "Annual service",
       "Emergency repairs"
     ],
-    warranty: "5 years warranty on materials and workmanship",
-    image: "/images/safety-nets/invisible-grill-windows.jpg",
-    heroImage: "/images/safety-nets/invisible-grill-windows.jpg",
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/sports-nets/cricket-nets.png",
+    heroImage: "/images/sports-nets/cricket-nets.png",
     gallery: [
-      "/images/safety-nets/invisible-grill-windows.jpg",
-      "/images/safety-nets/invisible-grill-balconies.jpg",
-      "/images/safety-nets/invisible-grill-apartments.webp"
+      "/images/sports-nets/cricket-nets.png"
     ],
-    priceRange: "₹70-100 per sq ft",
-    category: "Invisible Grills",
+    priceRange: "₹20-40 per sq ft",
+    category: "Sports Nets",
     popular: true
   },
   {
-    id: "invisible-grill-for-apartments",
-    name: "Invisible Grill for Apartments",
-    slug: "invisible-grill-for-apartments",
-    description: "Complete invisible grill solutions for apartment buildings and high-rise complexes. Available in 5 different wire thicknesses (2mm, 2.5mm, 3mm, 3.5mm, and 4mm) to meet various safety requirements and budgets. Our grills provide comprehensive security for all your windows and balconies while maintaining the modern aesthetic of apartment living. Perfect for protecting children and pets in high-rise buildings.",
-    shortDescription: "Complete apartment grill solutions - 2mm to 4mm wire sizes available",
+    id: "balcony-grills",
+    name: "Balcony Grills",
+    slug: "balcony-grills",
+    description: "Strong and secure balcony grills for maximum safety and protection. Available in various designs including invisible grills, traditional grills, and modern designs. Our grills provide complete security while maintaining aesthetics and views.",
+    shortDescription: "Strong and secure balcony grills for maximum safety",
     features: [
-      "Multiple wire sizes: 2mm, 2.5mm, 3mm, 3.5mm, 4mm",
-      "Bulk installation for entire apartment",
-      "Uniform look across all windows & balconies",
-      "Rust & weather resistant",
-      "Professional team installation",
-      "Customized for each opening",
-      "High-strength stainless steel",
-      "Child & pet safety certified"
+      "Multiple design options",
+      "High-strength materials",
+      "Custom fit for any balcony",
+      "Weather-resistant",
+      "Rust-proof construction",
+      "Professional installation",
+      "Child and pet safe",
+      "Long-lasting durability"
     ],
     applications: [
+      "Residential balconies",
       "Apartment balconies",
-      "Apartment windows",
-      "High-rise buildings",
-      "Residential complexes",
+      "High-rise balconies",
       "Penthouse terraces",
-      "Duplex apartments",
-      "Studio apartments",
-      "Commercial apartments"
+      "Duplex balconies",
+      "Villa balconies",
+      "Commercial balconies",
+      "Studio balconies"
     ],
     benefits: [
-      "Comprehensive security",
-      "Modern appearance",
-      "Bulk installation discounts",
-      "Consistent quality",
-      "Easy maintenance",
+      "Maximum security",
+      "Child and pet protection",
+      "Prevents falls",
       "Weather protection",
-      "Child safety",
-      "Property enhancement"
+      "Low maintenance",
+      "Aesthetic appeal",
+      "Long-lasting",
+      "Value addition"
     ],
     materials: [
-      "Grade 316 marine-grade stainless steel wires",
-      "Wire options: 2mm, 2.5mm, 3mm, 3.5mm, 4mm thickness",
-      "High-tensile cables (150+ kg load capacity)",
-      "Rust-proof mounting brackets",
-      "UV & weather resistant finish",
-      "Professional-grade hardware"
+      "Stainless steel or MS steel",
+      "Powder coating",
+      "Rust-proof hardware",
+      "High-tensile strength",
+      "Weather-resistant finish",
+      "Professional-grade materials"
     ],
     installation: [
-      "Bulk site assessment",
-      "Custom fabrication",
+      "Balcony assessment",
+      "Custom design",
+      "Fabrication",
       "Professional installation",
       "Quality inspection",
       "Safety testing"
     ],
     maintenance: [
-      "Regular maintenance",
-      "Bulk service contracts",
-      "Emergency repairs",
-      "Annual inspections",
-      "Hardware maintenance"
+      "Regular cleaning",
+      "Inspection for damage",
+      "Paint touch-up if needed",
+      "Hardware maintenance",
+      "Annual service check"
     ],
     warranty: "5 years warranty on materials and workmanship",
-    image: "/images/safety-nets/invisible-grill-apartments.webp",
-    heroImage: "/images/safety-nets/invisible-grill-apartments.webp",
+    image: "/images/home-solutions/balcony-grills.png",
+    heroImage: "/images/home-solutions/balcony-grills.png",
     gallery: [
-      "/images/safety-nets/invisible-grill-apartments.webp",
-      "/images/safety-nets/invisible-grill-balconies.jpg",
-      "/images/safety-nets/invisible-grill-windows.jpg"
+      "/images/home-solutions/balcony-grills.png"
     ],
-    priceRange: "₹75-110 per sq ft",
-    category: "Invisible Grills",
+    priceRange: "₹70-120 per sq ft",
+    category: "Safety Grills",
     popular: true
   },
   {
-    id: "pull-dry-cloth-hangers",
-    name: "Pull & Dry Cloth Hangers",
-    slug: "pull-dry-cloth-hangers",
-    description: "Modern pull & dry cloth hangers for efficient laundry drying. Available in 5 different sizes (4 feet, 5 feet, 6 feet, 7 feet, and 8 feet) with 3 rods or 6 rods options to match your space and drying needs. Our stainless steel hangers extend smoothly when needed and fold back neatly when not in use - perfect for saving space in your balcony or utility area.",
-    shortDescription: "Pull & dry cloth hangers - Available in 4ft to 8ft sizes with 3 or 6 rods",
+    id: "top-roofs-waterproof-sheets",
+    name: "Top Roofs & Waterproof Sheets",
+    slug: "top-roofs-waterproof-sheets",
+    description: "Professional roof waterproofing and top sheet installation to protect your property from water leakage and weather damage. Our high-quality waterproofing solutions ensure complete protection from rain, moisture, and weather elements.",
+    shortDescription: "Professional roof waterproofing and top sheet installation",
     features: [
-      "Sizes: 4 feet, 5 feet, 6 feet, 7 feet, 8 feet",
-      "Choose 3 rods or 6 rods based on your needs",
-      "Stainless steel - rust-proof construction",
-      "Easy pull & fold mechanism",
-      "Space-saving design - extends only when needed",
-      "Weather resistant for outdoor use",
-      "Easy DIY or professional installation",
-      "Modern & sleek appearance"
+      "Complete waterproofing solution",
+      "Multiple material options",
+      "Weather-resistant",
+      "UV-protected",
+      "Long-lasting durability",
+      "Professional installation",
+      "Leak-proof guarantee",
+      "Custom fit for any roof"
+    ],
+    applications: [
+      "Residential roofs",
+      "Commercial roofs",
+      "Terraces",
+      "Balconies",
+      "Rooftops",
+      "Industrial buildings",
+      "Apartment complexes",
+      "Villa roofs"
+    ],
+    benefits: [
+      "Prevents water leakage",
+      "Protects from weather damage",
+      "Increases roof lifespan",
+      "Energy efficient",
+      "Low maintenance",
+      "Long-lasting solution",
+      "Cost-effective",
+      "Property protection"
+    ],
+    materials: [
+      "Waterproofing membranes",
+      "Polyurethane coatings",
+      "Bituminous sheets",
+      "EPDM rubber sheets",
+      "PVC sheets",
+      "Professional-grade materials"
+    ],
+    installation: [
+      "Roof inspection",
+      "Surface preparation",
+      "Waterproofing application",
+      "Sheet installation",
+      "Quality inspection",
+      "Leak testing"
+    ],
+    maintenance: [
+      "Regular inspection",
+      "Minor repairs if needed",
+      "Annual maintenance",
+      "Surface cleaning",
+      "Coating touch-up"
+    ],
+    warranty: "5-10 years warranty on materials and workmanship",
+    image: "/images/home-solutions/top-roofs-waterproof-sheets.png",
+    heroImage: "/images/home-solutions/top-roofs-waterproof-sheets.png",
+    gallery: [
+      "/images/home-solutions/top-roofs-waterproof-sheets.png"
+    ],
+    priceRange: "₹50-100 per sq ft",
+    category: "Waterproofing",
+    popular: true
+  },
+  {
+    id: "cloth-hanger-ceiling-wall-brackets",
+    name: "Cloth Hanger for Ceiling and Wall Brackets",
+    slug: "cloth-hanger-ceiling-wall-brackets",
+    description: "Space-saving cloth hangers for ceiling and wall installation. Available in various sizes (4ft to 8ft) with 3 or 6 rods options. Perfect for balconies, utility areas, and laundry rooms. These hangers maximize your drying space while keeping your area organized.",
+    shortDescription: "Space-saving cloth hangers for ceiling and wall - 4ft to 8ft sizes",
+    features: [
+      "Ceiling and wall mounting options",
+      "Sizes: 4ft, 5ft, 6ft, 7ft, 8ft",
+      "3 rods or 6 rods configuration",
+      "Rust-proof stainless steel",
+      "Space-saving design",
+      "Easy to use",
+      "Professional installation",
+      "Long-lasting durability"
     ],
     applications: [
       "Balconies",
-      "Terraces",
       "Utility areas",
       "Laundry rooms",
-      "Apartment balconies",
-      "Residential complexes",
+      "Terraces",
+      "Apartment complexes",
+      "Residential spaces",
       "Commercial spaces",
       "High-rise buildings"
     ],
     benefits: [
-      "Multiple size options - fits any space",
-      "3 or 6 rods - dry more clothes at once",
-      "Space-saving - folds when not in use",
-      "Easy to pull out and push back",
-      "Dries clothes faster - better air circulation",
-      "Long-lasting - won't rust or break",
-      "Clean & organized look",
-      "Increases property value"
+      "Maximizes drying space",
+      "Saves floor and wall space",
+      "Easy to use",
+      "Multiple size options",
+      "Low maintenance",
+      "Durable construction",
+      "Organized look",
+      "Affordable solution"
     ],
     materials: [
-      "Grade 316 stainless steel rods & frame",
-      "Size options: 4ft, 5ft, 6ft, 7ft, 8ft",
-      "Rod options: 3 rods or 6 rods configuration",
-      "High-quality pullout mechanism",
-      "Rust-proof mounting brackets",
-      "Weather-resistant coating for outdoor use"
+      "Grade 316 stainless steel",
+      "Heavy-duty brackets",
+      "Pulley mechanism (for ceiling)",
+      "Rust-proof hardware",
+      "Weather-resistant coating",
+      "Professional-grade materials"
     ],
     installation: [
       "Site assessment",
@@ -289,155 +559,355 @@ export const services: Service[] = [
       "Emergency repairs"
     ],
     warranty: "3 years warranty on materials and workmanship",
-    image: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-    heroImage: "/images/safety-nets/pull-dry-cloth-hangers.jpg",
+    image: "/images/cloth-hangers/cloth-hanger-for-ceiling.png",
+    heroImage: "/images/cloth-hangers/cloth-hanger-for-ceiling.png",
     gallery: [
-      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      "/images/safety-nets/ceilling-cloth-hangers.jpg",
-      "/images/safety-nets/pull-dry-cloth-hangers-for-balconies.jpg"
+      "/images/cloth-hangers/cloth-hanger-for-ceiling.png"
     ],
-    priceRange: "₹40-60 per sq ft",
+    priceRange: "₹40-70 per sq ft",
     category: "Cloth Hangers",
     popular: true
   },
   {
-    id: "ceiling-cloth-hangers",
-    name: "Ceiling Cloth Hangers",
-    slug: "ceiling-cloth-hangers",
-    description: "Ceiling-mounted cloth hangers that maximize your drying space. Available in 5 sizes (4 feet, 5 feet, 6 feet, 7 feet, and 8 feet) with 3 rods or 6 rods options. These hangers are perfect when you have limited wall space - they hang from your ceiling and can be lowered for loading clothes and raised back up for drying. Great for balconies, utility rooms, and covered areas.",
-    shortDescription: "Ceiling cloth hangers - 4ft to 8ft sizes with 3 or 6 rods options",
+    id: "wallpapers",
+    name: "Wallpapers",
+    slug: "wallpapers",
+    description: "Premium wallpapers for residential and commercial spaces. Wide range of designs, patterns, and textures to transform your interiors. Our wallpapers are easy to install, durable, and add elegance to any space.",
+    shortDescription: "Premium wallpapers for beautiful interior transformation",
     features: [
-      "Available in: 4ft, 5ft, 6ft, 7ft, 8ft lengths",
-      "3 rods or 6 rods - choose your capacity",
-      "Ceiling-mounted - saves wall space",
-      "Pulldown mechanism - easy to load",
-      "Raise up for drying - better air flow",
-      "Rust-proof stainless steel",
-      "High load capacity - holds heavy clothes",
-      "Modern & space-efficient design"
+      "Wide range of designs",
+      "Multiple textures and patterns",
+      "Easy to install",
+      "Durable and long-lasting",
+      "Easy to clean",
+      "Moisture-resistant options",
+      "Custom designs available",
+      "Professional installation"
     ],
     applications: [
-      "Utility areas",
-      "Laundry rooms",
-      "Balconies",
-      "Terraces",
+      "Living rooms",
+      "Bedrooms",
+      "Offices",
       "Commercial spaces",
-      "Residential complexes",
-      "High-rise buildings",
-      "Apartment complexes"
+      "Hotels",
+      "Restaurants",
+      "Hospitals",
+      "Educational institutions"
     ],
     benefits: [
-      "Saves wall space - uses ceiling area",
-      "Multiple sizes - fits your space perfectly",
-      "3 or 6 rods - dry more in one go",
-      "Easy to lower and raise",
-      "Better drying - elevated air circulation",
-      "Strong & durable - won't rust",
-      "Clean look - no wall clutter",
-      "Affordable solution"
+      "Transforms interior look",
+      "Easy to maintain",
+      "Hides wall imperfections",
+      "Adds elegance",
+      "Wide design options",
+      "Long-lasting",
+      "Cost-effective",
+      "Quick installation"
     ],
     materials: [
-      "Grade 316 stainless steel rods & cables",
-      "Length options: 4ft, 5ft, 6ft, 7ft, 8ft",
-      "Rod configuration: 3 rods or 6 rods",
-      "Heavy-duty pulley mechanism",
-      "Strong ceiling mounting brackets",
-      "Weather-proof coating"
+      "Premium vinyl wallpapers",
+      "Fabric wallpapers",
+      "Non-woven wallpapers",
+      "3D wallpapers",
+      "Moisture-resistant materials",
+      "Professional-grade adhesives"
     ],
     installation: [
-      "Ceiling assessment",
-      "Custom fabrication",
+      "Wall preparation",
+      "Measurement and cutting",
+      "Adhesive application",
       "Professional installation",
-      "Quality inspection",
-      "Load testing"
+      "Finishing touches",
+      "Quality inspection"
     ],
     maintenance: [
       "Regular cleaning",
-      "Cable maintenance",
-      "Hardware inspection",
-      "Annual service",
-      "Emergency repairs"
+      "Minor repairs if needed",
+      "Annual inspection",
+      "Touch-up if required",
+      "Professional maintenance"
     ],
-    warranty: "3 years warranty on materials and workmanship",
-    image: "/images/safety-nets/ceiling-cloth-hangers.jpg",
-    heroImage: "/images/safety-nets/ceiling-cloth-hangers.jpg",
+    warranty: "2-5 years warranty on materials and workmanship",
+    image: "/images/home-solutions/wallpapers.png",
+    heroImage: "/images/home-solutions/wallpapers.png",
     gallery: [
-      "/images/safety-nets/ceiling-cloth-hangers.jpg",
-      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg"
+      "/images/home-solutions/wallpapers.png"
     ],
-    priceRange: "₹35-55 per sq ft",
-    category: "Cloth Hangers",
+    priceRange: "₹30-100 per sq ft",
+    category: "Interior Design",
     popular: false
   },
   {
-    id: "pull-dry-cloth-hangers-for-balconies",
-    name: "Pull & Dry Cloth Hangers for Balconies",
-    slug: "pull-dry-cloth-hangers-for-balconies",
-    description: "Specialized pull & dry cloth hangers designed for balconies - perfect for apartment living! Available in 5 convenient sizes (4 feet, 5 feet, 6 feet, 7 feet, and 8 feet) with 3 rods or 6 rods options. These hangers are specifically designed for balcony installation, featuring weather-resistant materials that withstand sun and rain. Pull out when you need to dry clothes, fold back when done - keeps your balcony looking neat and spacious.",
-    shortDescription: "Balcony cloth hangers - 4ft to 8ft with 3 or 6 rods, weather-resistant",
+    id: "construction-safety-nets",
+    name: "Construction Safety Nets",
+    slug: "construction-safety-nets",
+    description: "Heavy-duty construction safety nets for building sites and construction projects. Our nets provide protection from falling debris, tools, and materials, ensuring safety for workers and pedestrians. Compliant with safety standards and regulations.",
+    shortDescription: "Heavy-duty construction safety nets for building sites",
     features: [
-      "Sizes: 4 feet, 5 feet, 6 feet, 7 feet, 8 feet",
-      "3 rods or 6 rods - fits your laundry load",
-      "Designed specifically for balconies",
-      "Weather-proof - sun & rain resistant",
-      "Smooth pull & fold mechanism",
-      "Space-saving - extends only when needed",
-      "Easy to install on balcony walls",
-      "Sleek design - enhances balcony look"
+      "Heavy-duty netting material",
+      "Compliant with safety standards",
+      "Protects from falling debris",
+      "Weather-resistant",
+      "UV-protected",
+      "Easy installation",
+      "Durable construction",
+      "Professional grade"
     ],
     applications: [
-      "Apartment balconies",
-      "Residential balconies",
-      "High-rise balconies",
-      "Penthouse balconies",
-      "Duplex balconies",
-      "Studio balconies",
-      "Commercial balconies",
-      "Villa balconies"
+      "Construction sites",
+      "Building projects",
+      "Renovation sites",
+      "High-rise construction",
+      "Industrial projects",
+      "Infrastructure projects",
+      "Demolition sites",
+      "Maintenance work"
     ],
     benefits: [
-      "Perfect fit for balconies - made for outdoor use",
-      "Multiple sizes - choose what fits your balcony",
-      "3 or 6 rods - handle family laundry easily",
-      "Folds away - keeps balcony space free",
-      "Sun & rain proof - lasts for years",
-      "Easy to use - even kids can operate",
-      "Looks modern - adds to balcony aesthetics",
-      "Low maintenance - just wipe clean occasionally"
+      "Worker safety",
+      "Pedestrian protection",
+      "Prevents accidents",
+      "Compliance with regulations",
+      "Debris containment",
+      "Professional appearance",
+      "Durable and long-lasting",
+      "Cost-effective safety"
     ],
     materials: [
-      "Grade 316 marine-grade stainless steel",
-      "Length options: 4ft, 5ft, 6ft, 7ft, 8ft",
-      "Rod capacity: 3 rods or 6 rods",
-      "Extra weather-resistant coating for balconies",
-      "Heavy-duty mounting brackets",
-      "Smooth-glide pullout mechanism"
+      "Heavy-duty nylon/polyethylene",
+      "High-tensile strength",
+      "UV-resistant material",
+      "Steel mounting hardware",
+      "Rust-proof components",
+      "Professional-grade materials"
     ],
     installation: [
-      "Balcony assessment",
-      "Custom fabrication",
+      "Site assessment",
+      "Safety planning",
       "Professional installation",
+      "Quality inspection",
+      "Safety testing",
+      "Regular monitoring"
+    ],
+    maintenance: [
+      "Regular inspection",
+      "Damage assessment",
+      "Repair or replacement",
+      "Annual service",
+      "Emergency repairs"
+    ],
+    warranty: "2-3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/construction-safety-nets.png",
+    heroImage: "/images/safety-nets/construction-safety-nets.png",
+    gallery: [
+      "/images/safety-nets/construction-safety-nets.png"
+    ],
+    priceRange: "₹15-30 per sq ft",
+    category: "Safety Nets",
+    popular: true
+  },
+  {
+    id: "nursery-shade-nets",
+    name: "Nursery Shade Nets",
+    slug: "nursery-shade-nets",
+    description: "Specialized shade nets for nurseries, gardens, and agricultural applications. Our shade nets protect plants from excessive sunlight, reduce temperature, and create optimal growing conditions. Available in various shade percentages.",
+    shortDescription: "Specialized shade nets for nurseries and gardens",
+    features: [
+      "Multiple shade percentages (30%, 50%, 70%, 90%)",
+      "UV-resistant material",
+      "Weather-resistant",
+      "Reduces temperature",
+      "Protects plants",
+      "Easy installation",
+      "Durable construction",
+      "Custom sizes available"
+    ],
+    applications: [
+      "Plant nurseries",
+      "Gardens",
+      "Greenhouses",
+      "Agricultural fields",
+      "Horticulture",
+      "Floriculture",
+      "Vegetable farming",
+      "Commercial farming"
+    ],
+    benefits: [
+      "Protects from excessive sunlight",
+      "Reduces temperature",
+      "Prevents plant damage",
+      "Optimal growing conditions",
+      "Water conservation",
+      "Increases yield",
+      "Durable and long-lasting",
+      "Cost-effective solution"
+    ],
+    materials: [
+      "High-density polyethylene (HDPE)",
+      "UV-stabilized material",
+      "Weather-resistant coating",
+      "Steel or aluminum frames",
+      "Rust-proof hardware",
+      "Professional-grade materials"
+    ],
+    installation: [
+      "Site assessment",
+      "Frame installation",
+      "Net installation",
       "Quality inspection",
       "Functionality testing"
     ],
     maintenance: [
       "Regular cleaning",
-      "Cable maintenance",
-      "Hardware inspection",
+      "Inspection for damage",
+      "Frame maintenance",
       "Annual service",
       "Emergency repairs"
     ],
-    warranty: "3 years warranty on materials and workmanship",
-    image: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
-    heroImage: "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
+    warranty: "3-5 years warranty on materials and workmanship",
+    image: "/images/gardening/nursery-shade-nets.png",
+    heroImage: "/images/gardening/nursery-shade-nets.png",
     gallery: [
-      "/images/safety-nets/pull-dry-cloth-hangers-balconies.jpg",
-      "/images/safety-nets/pull-dry-cloth-hangers.jpg",
-      "/images/safety-nets/ceiling-cloth-hangers.jpg"
+      "/images/gardening/nursery-shade-nets.png"
     ],
-    priceRange: "₹45-65 per sq ft",
-    category: "Cloth Hangers",
+    priceRange: "₹10-25 per sq ft",
+    category: "Agricultural Nets",
+    popular: false
+  },
+  {
+    id: "children-safety-nets",
+    name: "Children Safety Nets",
+    slug: "children-safety-nets",
+    description: "Specialized safety nets designed to protect children from falls and accidents. Our nets are installed on balconies, windows, staircases, and play areas to ensure complete safety for children. Made from high-strength materials that can withstand significant weight.",
+    shortDescription: "Specialized safety nets to protect children from falls",
+    features: [
+      "High-strength netting",
+      "Child-safe materials",
+      "Withstands significant weight",
+      "Transparent - maintains visibility",
+      "Weather-resistant",
+      "Easy installation",
+      "Durable construction",
+      "Professional installation"
+    ],
+    applications: [
+      "Balconies",
+      "Windows",
+      "Staircases",
+      "Play areas",
+      "Terraces",
+      "Open areas",
+      "Schools",
+      "Daycare centers"
+    ],
+    benefits: [
+      "Prevents child falls",
+      "Complete safety protection",
+      "Peace of mind for parents",
+      "Maintains visibility",
+      "Weather-resistant",
+      "Long-lasting",
+      "Easy maintenance",
+      "Affordable safety solution"
+    ],
+    materials: [
+      "High-strength nylon/polyethylene",
+      "UV-resistant material",
+      "Weatherproof coating",
+      "Stainless steel hardware",
+      "Heavy-duty mounting",
+      "Child-safe materials"
+    ],
+    installation: [
+      "Safety assessment",
+      "Custom measurement",
+      "Professional installation",
+      "Safety testing",
+      "Quality inspection"
+    ],
+    maintenance: [
+      "Regular inspection",
+      "Safety checks",
+      "Damage assessment",
+      "Annual maintenance",
+      "Emergency repairs"
+    ],
+    warranty: "3 years warranty on materials and workmanship",
+    image: "/images/safety-nets/children-safety-nets.png",
+    heroImage: "/images/safety-nets/children-safety-nets.png",
+    gallery: [
+      "/images/safety-nets/children-safety-nets.png"
+    ],
+    priceRange: "₹20-35 per sq ft",
+    category: "Safety Nets",
+    popular: true
+  },
+  {
+    id: "folding-aluminium-mosquito-door",
+    name: "Folding Aluminium Mosquito Door",
+    slug: "folding-aluminium-mosquito-door",
+    description: "Modern folding aluminium mosquito doors that provide complete protection from mosquitoes and insects. These doors fold neatly to the side when not in use, saving space. Perfect for main entrances, balconies, and patios. Available in various sizes and designs.",
+    shortDescription: "Modern folding aluminium mosquito doors - space-saving design",
+    features: [
+      "Folding design - saves space",
+      "Aluminium frame - lightweight and durable",
+      "Fine mesh - blocks all mosquitoes",
+      "Smooth folding mechanism",
+      "Easy to operate",
+      "Weather-resistant",
+      "Custom fit for any door",
+      "Professional installation"
+    ],
+    applications: [
+      "Main entrances",
+      "Balconies",
+      "Patios",
+      "Verandas",
+      "Residential homes",
+      "Commercial spaces",
+      "Offices",
+      "Hospitals"
+    ],
+    benefits: [
+      "Complete mosquito protection",
+      "Space-saving design",
+      "Easy to use",
+      "Durable construction",
+      "Low maintenance",
+      "Modern appearance",
+      "Allows ventilation",
+      "Long-lasting"
+    ],
+    materials: [
+      "Aluminium frames",
+      "Fine mesh fabric",
+      "Folding mechanism",
+      "Stainless steel hardware",
+      "UV-resistant mesh",
+      "Professional-grade materials"
+    ],
+    installation: [
+      "Door measurement",
+      "Frame fabrication",
+      "Professional installation",
+      "Functionality testing",
+      "Quality inspection"
+    ],
+    maintenance: [
+      "Regular cleaning",
+      "Mesh inspection",
+      "Mechanism lubrication",
+      "Frame maintenance",
+      "Annual service check"
+    ],
+    warranty: "2 years warranty on materials and workmanship",
+    image: "/images/home-solutions/folding-aluminium-mosquito-door.png",
+    heroImage: "/images/home-solutions/folding-aluminium-mosquito-door.png",
+    gallery: [
+      "/images/home-solutions/folding-aluminium-mosquito-door.png"
+    ],
+    priceRange: "₹150-300 per sq ft",
+    category: "Mosquito Nets",
     popular: true
   }
 ];
