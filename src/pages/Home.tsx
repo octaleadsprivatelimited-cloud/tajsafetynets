@@ -265,10 +265,13 @@ const Home: React.FC = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="bg-gradient-to-br from-white to-primary-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer"
                 >
-                  <div className="h-32 sm:h-40 md:h-48 bg-cover bg-center bg-no-repeat relative overflow-hidden">
-                    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
-                      backgroundImage: `url('${service.image}')`
-                    }}></div>
+                  <div className="h-32 sm:h-40 md:h-48 relative overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <img 
+                      src={service.image} 
+                      alt={service.name}
+                      className="w-full h-full object-contain"
+                    />
+                    <div className="absolute inset-0"></div>
                     
                     {/* Dark Overlay for better text visibility */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-black/40"></div>

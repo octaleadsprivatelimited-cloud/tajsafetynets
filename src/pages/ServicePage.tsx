@@ -341,11 +341,11 @@ const ServicePage: React.FC = () => {
                   className="group cursor-pointer"
                 >
                   <div className="relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-                    <div className="h-64 w-full">
+                    <div className="h-64 w-full bg-gray-100 flex items-center justify-center">
                       <LazyImage
                         src={image}
                         alt={`${service.name} - Image ${index + 1}`}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">

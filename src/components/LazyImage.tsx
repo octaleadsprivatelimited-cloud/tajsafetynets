@@ -44,7 +44,7 @@ const LazyImage: React.FC<LazyImageProps> = ({
         <img
           src={src}
           alt={alt}
-          className={`w-full h-full object-cover transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+          className={`w-full h-full transition-opacity duration-300 ${isLoaded ? 'opacity-100' : 'opacity-0'} ${className.includes('object-') ? '' : 'object-cover'}`}
           onLoad={() => setIsLoaded(true)}
           onError={() => setHasError(true)}
           loading="lazy"

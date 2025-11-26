@@ -135,18 +135,17 @@ const Services: React.FC = () => {
                 className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
               >
                 {/* Service Image */}
-                <div className="h-48 w-full overflow-hidden">
+                <div className="h-48 w-full overflow-hidden bg-gray-100 flex items-center justify-center">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 
                 <div className="p-8">
                   <div className="text-center mb-6">
-                    {service.icon}
-                    <h3 className="text-xl font-bold text-gray-900 mt-4 mb-2">
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">
                       {service.title}
                     </h3>
                     <p className="text-gray-600 mb-6">

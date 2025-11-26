@@ -147,10 +147,10 @@ export const services: Service[] = [
       "Annual service check"
     ],
     warranty: "2 years warranty on materials and workmanship",
-    image: "/images/home-solutions/mosquito-door-window.png",
-    heroImage: "/images/home-solutions/mosquito-door-window.png",
+    image: "/images/home-solutions/mosquito-door-window.jpg",
+    heroImage: "/images/home-solutions/mosquito-door-window.jpg",
     gallery: [
-      "/images/home-solutions/mosquito-door-window.png"
+      "/images/home-solutions/mosquito-door-window.jpg"
     ],
     priceRange: "₹80-150 per sq ft",
     category: "Mosquito Nets",
