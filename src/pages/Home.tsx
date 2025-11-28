@@ -66,18 +66,18 @@ const Home: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets</title>
-        <meta name="description" content="Taj Safety Nets - Leading provider of pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free quote! ☎ +91 8790839401" />
-        <meta name="keywords" content="pigeon safety nets Hyderabad, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets, safety net installation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg" />
-        <meta property="og:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
+        <title>Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Enterprises & Safety Nets</title>
+        <meta name="description" content="Taj Enterprises & Safety Nets - Leading provider of pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free quote! ☎ +91 8790839401" />
+        <meta name="keywords" content="pigeon safety nets Hyderabad, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Enterprises & Safety Nets, safety net installation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg" />
+        <meta property="og:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Enterprises & Safety Nets" />
         <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://steel-invisible-kills.vercel.app" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Safety Nets" />
+        <meta name="twitter:title" content="Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More in Hyderabad | Taj Enterprises & Safety Nets" />
         <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more in Hyderabad. Free quote! ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section with Slider Background */}
@@ -339,7 +339,7 @@ const Home: React.FC = () => {
                   </span>
                 </motion.div>
                 <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                  Why Choose <span className="text-primary-700">Taj Safety Nets?</span>
+                  Why Choose <span className="text-primary-700">Taj Enterprises & Safety Nets?</span>
                 </h2>
                 <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                   We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors with unmatched quality and service across Hyderabad

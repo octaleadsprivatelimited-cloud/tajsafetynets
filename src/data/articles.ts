@@ -47,7 +47,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Safety Company</h2>
-      <p>Taj Safety Nets leads Hyderabad with 15+ years of experience, 500+ installs, 24/7 support, and free assessments.</p>
+      <p>Taj Enterprises & Safety Nets leads Hyderabad with 15+ years of experience, 500+ installs, 24/7 support, and free assessments.</p>
       
       <h2>Government Support</h2>
       <ul>
@@ -113,7 +113,7 @@ export const articles: Article[] = [
       <h2>Conclusion</h2>
       <p>Hyderabad offers excellent potential for safety nets with strong demand and reliable local service.</p>
     `,
-    author: "Taj Safety Nets Team",
+    author: "Taj Enterprises & Safety Nets Team",
     authorBio: "Leading safety nets experts in Hyderabad with over 15 years of experience and 500+ successful installations.",
     publishDate: "2024-03-20",
     readTime: "8 min read",
@@ -155,7 +155,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Safety Expertise</h2>
-      <p>Taj Safety Nets serves Delhi with:</p>
+      <p>Taj Enterprises & Safety Nets serves Delhi with:</p>
       <ul>
         <li>Local office and support team</li>
         <li>Quick installation services</li>
@@ -228,7 +228,7 @@ export const articles: Article[] = [
       </ul>
       
       <h2>Local Safety Services</h2>
-      <p>Taj Safety Nets provides in Bangalore:</p>
+      <p>Taj Enterprises & Safety Nets provides in Bangalore:</p>
       <ul>
         <li>Free site assessment</li>
         <li>Custom safety solutions</li>
@@ -317,7 +317,7 @@ additionalLocations.forEach((location, index) => {
       </ul>
       
       <h2>Local Services</h2>
-      <p>Taj Safety Nets provides comprehensive safety solutions in ${location} including installation, maintenance, and support.</p>
+      <p>Taj Enterprises & Safety Nets provides comprehensive safety solutions in ${location} including installation, maintenance, and support.</p>
       
       <h2>Government Support</h2>
       <ul>

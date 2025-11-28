@@ -68,7 +68,7 @@ const Navbar: React.FC = () => {
               <Link to="/" className="flex items-center space-x-3">
                 <img 
                   src="/images/logo.png" 
-                  alt="Taj Safety Nets Logo" 
+                  alt="Taj Enterprises & Safety Nets Logo" 
                   className="h-14 sm:h-16 w-auto object-contain"
                 />
               </Link>

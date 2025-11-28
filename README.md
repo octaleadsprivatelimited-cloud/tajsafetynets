@@ -1,4 +1,4 @@
-# Taj Safety Nets - Safety Nets & Protection Solutions Website
+# Taj Enterprises & Safety Nets - Safety Nets & Protection Solutions Website
 
 A professional, responsive website for a safety nets and protection solutions company operating across India.
 
@@ -138,7 +138,7 @@ The build folder will contain all production-ready files.
 ### Environment Variables
 Create a `.env` file for environment-specific configurations:
 ```env
-REACT_APP_COMPANY_NAME=Taj Safety Nets
+REACT_APP_COMPANY_NAME=Taj Enterprises & Safety Nets
 REACT_APP_PHONE_NUMBER=+918790839401
 REACT_APP_EMAIL=tajenterprises246@gmail.com
 ```
@@ -174,7 +174,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 
 For contributions and collaboration, please contact us directly:
 - Phone: +91 8790839401
-- Email: tajenterprises246@gmail.com (Taj Safety Nets)
+- Email: tajenterprises246@gmail.com (Taj Enterprises & Safety Nets)
 
 ## 📄 License
 
@@ -189,4 +189,4 @@ For support and questions:
 
 ---
 
-**Taj Safety Nets** - Protecting lives with quality safety solutions! 🛡️
+**Taj Enterprises & Safety Nets** - Protecting lives with quality safety solutions! 🛡️

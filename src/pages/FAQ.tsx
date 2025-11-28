@@ -110,17 +110,17 @@ const FAQ: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad</title>
+        <title>FAQ - Frequently Asked Questions | Taj Enterprises & Safety Nets Hyderabad</title>
         <meta name="description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. Get answers about pricing, installation, maintenance, warranty, and services in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 8790839401" />
-        <meta name="keywords" content="invisible grills FAQ, cloth hangers FAQ, grill installation questions, safety nets FAQ, grill pricing, installation process, maintenance tips, warranty information, Taj Safety Nets FAQ, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, common questions Hyderabad" />
-        <meta property="og:title" content="FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad" />
+        <meta name="keywords" content="invisible grills FAQ, cloth hangers FAQ, grill installation questions, safety nets FAQ, grill pricing, installation process, maintenance tips, warranty information, Taj Enterprises & Safety Nets FAQ, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, common questions Hyderabad" />
+        <meta property="og:title" content="FAQ - Frequently Asked Questions | Taj Enterprises & Safety Nets Hyderabad" />
         <meta property="og:description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. Get answers about pricing, installation, and services. ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="FAQ - Frequently Asked Questions | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:title" content="FAQ - Frequently Asked Questions | Taj Enterprises & Safety Nets Hyderabad" />
         <meta name="twitter:description" content="Frequently asked questions about invisible grills and cloth hangers installation in Hyderabad. ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section - Redesigned */}
@@ -166,7 +166,7 @@ const FAQ: React.FC = () => {
             className="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto font-medium leading-relaxed"
           >
             Get answers to common questions about invisible grills, cloth hangers, installation, and maintenance. 
-            Everything you need to know about Taj Safety Nets services.
+            Everything you need to know about Taj Enterprises & Safety Nets services.
           </motion.p>
         </div>
       </section>

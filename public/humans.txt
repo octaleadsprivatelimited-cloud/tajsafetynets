@@ -1,5 +1,5 @@
 /* TEAM */
-    Founder: Taj Safety Nets Team
+    Founder: Taj Enterprises & Safety Nets Team
     Site: https://steel-invisible-kills.vercel.app
     Location: Hyderabad, Telangana, India
 
@@ -31,6 +31,6 @@
     Description: Quality safety nets and materials
 
 /* SITE */
-    Name: Taj Safety Nets
+    Name: Taj Enterprises & Safety Nets
     Description: Leading safety nets installation company in Hyderabad
-    Author: Taj Safety Nets Team
+    Author: Taj Enterprises & Safety Nets Team

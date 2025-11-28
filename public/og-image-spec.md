@@ -1,11 +1,11 @@
-# Open Graph Image Specifications for Taj Safety Nets
+# Open Graph Image Specifications for Taj Enterprises & Safety Nets
 
 ## Primary OG Image
 - **Dimensions**: 1200 x 630 pixels (1.91:1 ratio)
 - **Format**: PNG or JPG
 - **File Size**: Under 1MB
 - **Content**: 
-  - Logo: Taj Safety Nets logo
+  - Logo: Taj Enterprises & Safety Nets logo
   - Tagline: "Leading Invisible Grill Installation in Hyderabad"
   - Highlight: "Premium Safety Grills for Your Home"
   - Visual: Invisible grill installation with modern building
@@ -15,7 +15,7 @@
 ### Homepage
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Company overview with invisible grills
-- **Text**: "Taj Safety Nets - Protect Your Home with Premium Grills"
+- **Text**: "Taj Enterprises & Safety Nets - Protect Your Home with Premium Grills"
 
 ### Services
 - **Dimensions**: 1200 x 630 pixels
@@ -25,12 +25,12 @@
 ### About
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Company building and installations
-- **Text**: "About Taj Safety Nets - 25+ Years of Excellence"
+- **Text**: "About Taj Enterprises & Safety Nets - 25+ Years of Excellence"
 
 ### Contact
 - **Dimensions**: 1200 x 630 pixels
 - **Content**: Contact information with service areas map
-- **Text**: "Contact Taj Safety Nets - All Areas Across Hyderabad"
+- **Text**: "Contact Taj Enterprises & Safety Nets - All Areas Across Hyderabad"
 
 ## Social Media Platforms
 
@@ -67,7 +67,7 @@
 - **Contrast**: High contrast for accessibility
 
 ### Branding
-- **Logo**: Always include Taj Safety Nets logo
+- **Logo**: Always include Taj Enterprises & Safety Nets logo
 - **Tagline**: "Leading Invisible Grill Installation in Hyderabad"
 - **Contact**: +91 8790839401
 - **Website**: steel-invisible-kills.vercel.app

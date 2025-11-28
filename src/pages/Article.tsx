@@ -48,7 +48,7 @@ const ArticlePage: React.FC = () => {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Taj Safety Nets"
+      "name": "Taj Enterprises & Safety Nets"
     },
     "datePublished": article.publishDate,
     "dateModified": article.publishDate,
@@ -90,7 +90,7 @@ const ArticlePage: React.FC = () => {
         <meta property="og:description" content={article.excerpt} />
         <meta property="og:image" content={`https://jara-safety-nets.vercel.app${article.image}`} />
         <meta property="og:url" content={`https://jara-safety-nets.vercel.app/blog/${article.slug}`} />
-        <meta property="og:site_name" content="Taj Safety Nets" />
+        <meta property="og:site_name" content="Taj Enterprises & Safety Nets" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

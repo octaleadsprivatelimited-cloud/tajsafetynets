@@ -43,22 +43,22 @@ const ServicePage: React.FC = () => {
   // Generate keywords based on service
   const serviceKeywords = service.name.toLowerCase().replace(/&/g, '').replace(/\s+/g, ', ');
   const locationKeywords = "Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, Hyderabad";
-  const allKeywords = `${serviceKeywords}, invisible grills, cloth hangers, ${locationKeywords}, Taj Safety Nets, professional installation, quality grills`;
+  const allKeywords = `${serviceKeywords}, invisible grills, cloth hangers, ${locationKeywords}, Taj Enterprises & Safety Nets, professional installation, quality grills`;
 
   return (
     <>
       <Helmet>
-        <title>{service.name} - Professional Installation | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content={`${service.shortDescription} Professional installation by Taj Safety Nets in Hyderabad. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91 8790839401`} />
+        <title>{service.name} - Professional Installation | Taj Enterprises & Safety Nets Hyderabad</title>
+        <meta name="description" content={`${service.shortDescription} Professional installation by Taj Enterprises & Safety Nets in Hyderabad. Serving Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Free quote! ☎ +91 8790839401`} />
         <meta name="keywords" content={allKeywords} />
-        <meta property="og:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
+        <meta property="og:title" content={`${service.name} - Professional Installation | Taj Enterprises & Safety Nets Hyderabad`} />
         <meta property="og:description" content={`${service.shortDescription} Professional installation in Hyderabad. Free quote! ☎ +91 8790839401`} />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={`${service.name} - Professional Installation | Taj Safety Nets Hyderabad`} />
+        <meta name="twitter:title" content={`${service.name} - Professional Installation | Taj Enterprises & Safety Nets Hyderabad`} />
         <meta name="twitter:description" content={`${service.shortDescription} Professional installation in Hyderabad. ☎ +91 8790839401`} />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section */}

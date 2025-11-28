@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <img 
                 src="/images/logo.png" 
-                alt="Taj Safety Nets Logo" 
+                alt="Taj Enterprises & Safety Nets Logo" 
                 className="h-16 sm:h-20 w-auto object-contain mb-2"
               />
               <p className="text-sm text-gray-300 leading-relaxed">
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
                   <Phone className="h-4 w-4 text-accent-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <p className="text-gray-300 font-semibold">+91 8790839401</p>
-                    <p className="text-gray-400 text-xs">Taj Safety Nets - 24/7 Support</p>
+                    <p className="text-gray-400 text-xs">Taj Enterprises & Safety Nets - 24/7 Support</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
@@ -77,7 +77,7 @@ const Footer: React.FC = () => {
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-accent-400 transition-colors cursor-pointer block"
                     >
-                      <p>Taj Safety Nets Office</p>
+                      <p>Taj Enterprises & Safety Nets Office</p>
                       <p>Hyderabad, Telangana - 500035</p>
                     </a>
                   </div>
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="text-sm text-gray-400">
-                © 2024 Taj Safety Nets. All rights reserved. | Developed by{' '}
+                © 2024 Taj Enterprises & Safety Nets. All rights reserved. | Developed by{' '}
                 <a 
                   href="https://www.octaleads.com/" 
                   target="_blank" 

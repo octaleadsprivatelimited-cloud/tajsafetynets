@@ -71,17 +71,17 @@ const About: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad</title>
-        <meta name="description" content="Learn about Taj Safety Nets - Hyderabad's trusted invisible grill installation company. 25+ years experience, 5200+ projects, 5100+ happy clients. Quality certified, professional service in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 8790839401" />
-        <meta name="keywords" content="Taj Safety Nets about, invisible grill company Hyderabad, safety nets company, professional grill installation, certified invisible grills, quality assurance, ISO certified, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, experienced grill installers, trusted safety nets provider" />
-        <meta property="og:title" content="About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad" />
-        <meta property="og:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service across Hyderabad. ☎ +91 8790839401" />
+        <title>About Us - Taj Enterprises & Safety Nets | Leading Invisible Grill Company in Hyderabad</title>
+        <meta name="description" content="Learn about Taj Enterprises & Safety Nets - Hyderabad's trusted invisible grill installation company. 25+ years experience, 5200+ projects, 5100+ happy clients. Quality certified, professional service in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. ☎ +91 8790839401" />
+        <meta name="keywords" content="Taj Enterprises & Safety Nets about, invisible grill company Hyderabad, safety nets company, professional grill installation, certified invisible grills, quality assurance, ISO certified, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, experienced grill installers, trusted safety nets provider" />
+        <meta property="og:title" content="About Us - Taj Enterprises & Safety Nets | Leading Invisible Grill Company in Hyderabad" />
+        <meta property="og:description" content="Taj Enterprises & Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service across Hyderabad. ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="About Us - Taj Safety Nets | Leading Invisible Grill Company in Hyderabad" />
-        <meta name="twitter:description" content="Taj Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service. ☎ +91 8790839401" />
+        <meta name="twitter:title" content="About Us - Taj Enterprises & Safety Nets | Leading Invisible Grill Company in Hyderabad" />
+        <meta name="twitter:description" content="Taj Enterprises & Safety Nets - 25+ years of experience in invisible grill installation. Quality certified, professional service. ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section */}
@@ -101,7 +101,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl lg:text-5xl font-bold mb-6"
           >
-            About Taj Safety Nets
+            About Taj Enterprises & Safety Nets
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -109,7 +109,7 @@ const About: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto font-medium"
           >
-            Taj Safety Nets specializes in providing high-quality, durable invisible grills for balconies, windows, and apartments. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
+            Taj Enterprises & Safety Nets specializes in providing high-quality, durable invisible grills for balconies, windows, and apartments. We offer stylish and safe solutions to protect your home while maintaining unobstructed views. Reliable installation and superior craftsmanship guaranteed.
           </motion.p>
         </div>
       </section>
@@ -173,7 +173,7 @@ const About: React.FC = () => {
                   >
                     <div className="absolute -left-2 top-0 w-4 h-4 bg-accent-500 rounded-full"></div>
                     <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                      Founded with <span className="font-bold text-primary-700">25+ years of experience</span>, Taj Safety Nets began with a clear mission: to provide high-quality invisible grills and cloth hangers for homes and apartments across Hyderabad.
+                      Founded with <span className="font-bold text-primary-700">25+ years of experience</span>, Taj Enterprises & Safety Nets began with a clear mission: to provide high-quality invisible grills and cloth hangers for homes and apartments across Hyderabad.
                     </p>
                   </motion.div>
 
@@ -847,7 +847,7 @@ const About: React.FC = () => {
                 Ready to Work with <span className="text-accent-400">Us?</span>
               </h2>
               <p className="text-lg sm:text-xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
-                Join our growing family of satisfied customers and experience the Taj Safety Nets difference
+                Join our growing family of satisfied customers and experience the Taj Enterprises & Safety Nets difference
               </p>
             </motion.div>
 

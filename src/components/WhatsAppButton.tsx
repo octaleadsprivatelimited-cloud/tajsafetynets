@@ -22,7 +22,7 @@ const WhatsAppButton: React.FC = () => {
   };
 
   const handleEmailClick = () => {
-    window.open('mailto:tajenterprises246@gmail.com?subject=Inquiry about Invisible Grills & Cloth Hangers - Taj Safety Nets', '_self');
+    window.open('mailto:tajenterprises246@gmail.com?subject=Inquiry about Invisible Grills & Cloth Hangers - Taj Enterprises & Safety Nets', '_self');
   };
 
   // Don't render anything on landing page

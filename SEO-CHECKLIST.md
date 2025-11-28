@@ -1,4 +1,4 @@
-# Taj Safety Nets - Complete SEO Checklist
+# Taj Enterprises & Safety Nets - Complete SEO Checklist
 
 ## ✅ Technical SEO
 
@@ -216,4 +216,4 @@
 
 **Last Updated**: November 1, 2024  
 **Next Review**: December 1, 2024  
-**SEO Manager**: Taj Safety Nets Team
+**SEO Manager**: Taj Enterprises & Safety Nets Team

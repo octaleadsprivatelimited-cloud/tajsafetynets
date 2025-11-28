@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: ["+91 8790839401", "Taj Safety Nets"],
+      details: ["+91 8790839401", "Taj Enterprises & Safety Nets"],
       action: "tel:+918790839401",
       color: "accent"
     },
@@ -118,17 +118,17 @@ const Contact: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us - Get Free Quote | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation and quote. Phone: +91 8790839401 | Email: tajenterprises246@gmail.com" />
-        <meta name="keywords" content="contact Taj Safety Nets, pigeon safety nets contact, mosquito door contact, artificial grass contact, invisible grills contact, cricket nets contact, balcony grills contact, roof waterproofing contact, cloth hangers contact, wallpapers contact, construction safety nets contact, nursery shade nets contact, children safety nets contact, mosquito door contact, installation quote, free consultation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets contact Hyderabad, phone number, email address" />
-        <meta property="og:title" content="Contact Us - Get Free Quote | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Free consultation! Phone: +91 8790839401" />
+        <title>Contact Us - Get Free Quote | Taj Enterprises & Safety Nets Hyderabad</title>
+        <meta name="description" content="Contact Taj Enterprises & Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation and quote. Phone: +91 8790839401 | Email: tajenterprises246@gmail.com" />
+        <meta name="keywords" content="contact Taj Enterprises & Safety Nets, pigeon safety nets contact, mosquito door contact, artificial grass contact, invisible grills contact, cricket nets contact, balcony grills contact, roof waterproofing contact, cloth hangers contact, wallpapers contact, construction safety nets contact, nursery shade nets contact, children safety nets contact, mosquito door contact, installation quote, free consultation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets contact Hyderabad, phone number, email address" />
+        <meta property="og:title" content="Contact Us - Get Free Quote | Taj Enterprises & Safety Nets Hyderabad" />
+        <meta property="og:description" content="Contact Taj Enterprises & Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Free consultation! Phone: +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Contact Us - Get Free Quote | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Phone: +91 8790839401" />
+        <meta name="twitter:title" content="Contact Us - Get Free Quote | Taj Enterprises & Safety Nets Hyderabad" />
+        <meta name="twitter:description" content="Contact Taj Enterprises & Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Phone: +91 8790839401" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section - Redesigned */}
@@ -471,7 +471,7 @@ const Contact: React.FC = () => {
                     <div className="flex-grow">
                       <h4 className="font-bold text-gray-900">Call Us</h4>
                       <p className="text-sm text-gray-600 font-semibold">+91 8790839401</p>
-                      <p className="text-xs text-gray-500">Taj Safety Nets</p>
+                      <p className="text-xs text-gray-500">Taj Enterprises & Safety Nets</p>
                     </div>
                     <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-accent-600 group-hover:translate-x-1 transition-all duration-300" />
                   </motion.a>
@@ -501,7 +501,7 @@ const Contact: React.FC = () => {
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Taj Safety Nets Location"
+                    title="Taj Enterprises & Safety Nets Location"
                   ></iframe>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3">
@@ -748,7 +748,7 @@ const Contact: React.FC = () => {
                 <Phone className="h-5 w-5 text-gray-900 mr-2" />
                 <div>
                   <span className="text-sm sm:text-base font-semibold">+91 8790839401</span>
-                  <p className="text-xs text-gray-600">Taj Safety Nets</p>
+                  <p className="text-xs text-gray-600">Taj Enterprises & Safety Nets</p>
                 </div>
               </div>
               <div className="flex items-center">

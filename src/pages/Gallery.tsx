@@ -60,17 +60,17 @@ const Gallery: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad</title>
+        <title>Gallery - Invisible Grills & Cloth Hangers Projects | Taj Enterprises & Safety Nets Hyderabad</title>
         <meta name="description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. See completed projects in Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg. Quality workmanship showcased. ☎ +91 8790839401" />
-        <meta name="keywords" content="invisible grills gallery, cloth hangers gallery, grill installation photos, safety nets projects, balcony grills images, window grills photos, apartment grills gallery, Taj Safety Nets projects, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, completed projects Hyderabad" />
-        <meta property="og:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad" />
+        <meta name="keywords" content="invisible grills gallery, cloth hangers gallery, grill installation photos, safety nets projects, balcony grills images, window grills photos, apartment grills gallery, Taj Enterprises & Safety Nets projects, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, completed projects Hyderabad" />
+        <meta property="og:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Enterprises & Safety Nets Hyderabad" />
         <meta property="og:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. Quality workmanship showcased. ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Safety Nets Hyderabad" />
+        <meta name="twitter:title" content="Gallery - Invisible Grills & Cloth Hangers Projects | Taj Enterprises & Safety Nets Hyderabad" />
         <meta name="twitter:description" content="View our gallery of invisible grill and cloth hanger installations in Hyderabad. ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
-        <meta name="author" content="Taj Safety Nets" />
+        <meta name="author" content="Taj Enterprises & Safety Nets" />
       </Helmet>
       <div className="pt-16">
       {/* Hero Section - Redesigned */}

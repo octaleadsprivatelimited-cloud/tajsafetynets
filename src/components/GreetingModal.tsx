@@ -29,7 +29,7 @@ const GreetingModal: React.FC = () => {
 
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      "Hi! I'm interested in safety nets installation from Taj Safety Nets. Can you provide me with more information about your services?"
+      "Hi! I'm interested in safety nets installation from Taj Enterprises & Safety Nets. Can you provide me with more information about your services?"
     );
     const whatsappUrl = `https://wa.me/918790839401?text=${message}`;
     window.open(whatsappUrl, '_blank');
@@ -89,7 +89,7 @@ const GreetingModal: React.FC = () => {
                   transition={{ delay: 0.3 }}
                   className="text-2xl font-bold text-gray-900 mb-2"
                 >
-                  Welcome to Taj Safety Nets! 🎉
+                  Welcome to Taj Enterprises & Safety Nets! 🎉
                 </motion.h2>
                 
                 <motion.p

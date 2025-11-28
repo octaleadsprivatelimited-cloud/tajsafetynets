@@ -115,5 +115,5 @@ export const metaKeywords = [
   'safety warranty India',
   'safety maintenance',
   'safety repair services',
-  'Taj Safety Nets'
+  'Taj Enterprises & Safety Nets'
 ].join(', ');
