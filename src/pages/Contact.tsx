@@ -62,8 +62,8 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: ["info@tajsafetynets.com", "Taj Safety Nets"],
-      action: "mailto:info@tajsafetynets.com",
+      details: ["tajenterprises246@gmail.com", "TAJ Enterprises"],
+      action: "mailto:tajenterprises246@gmail.com",
       color: "secondary"
     },
     {
@@ -119,7 +119,7 @@ const Contact: React.FC = () => {
     <>
       <Helmet>
         <title>Contact Us - Get Free Quote | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation and quote. Phone: +91 8790839401 | Email: info@tajsafetynets.com" />
+        <meta name="description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation in Hyderabad. Free consultation and quote. Phone: +91 8790839401 | Email: tajenterprises246@gmail.com" />
         <meta name="keywords" content="contact Taj Safety Nets, pigeon safety nets contact, mosquito door contact, artificial grass contact, invisible grills contact, cricket nets contact, balcony grills contact, roof waterproofing contact, cloth hangers contact, wallpapers contact, construction safety nets contact, nursery shade nets contact, children safety nets contact, mosquito door contact, installation quote, free consultation, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets contact Hyderabad, phone number, email address" />
         <meta property="og:title" content="Contact Us - Get Free Quote | Taj Safety Nets Hyderabad" />
         <meta property="og:description" content="Contact Taj Safety Nets for pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation in Hyderabad. Free consultation! Phone: +91 8790839401" />

@@ -130,7 +130,7 @@ The build folder will contain all production-ready files.
 ## 📞 Contact Information
 
 - **Phone**: +91 8790839401
-- **Email**: info@tajsafetynets.com
+- **Email**: tajenterprises246@gmail.com
 - **Service Areas**: Mumbai, Delhi, Bangalore, Chennai, Hyderabad, Pune, Kolkata
 
 ## 🔧 Configuration
@@ -140,7 +140,7 @@ Create a `.env` file for environment-specific configurations:
 ```env
 REACT_APP_COMPANY_NAME=Taj Safety Nets
 REACT_APP_PHONE_NUMBER=+918790839401
-REACT_APP_EMAIL=info@tajsafetynets.com
+REACT_APP_EMAIL=tajenterprises246@gmail.com
 ```
 
 ### Tailwind Configuration
@@ -174,7 +174,7 @@ Customize colors, fonts, and animations in `tailwind.config.js`
 
 For contributions and collaboration, please contact us directly:
 - Phone: +91 8790839401
-- Email: info@tajsafetynets.com (Taj Safety Nets)
+- Email: tajenterprises246@gmail.com (Taj Safety Nets)
 
 ## 📄 License
 
