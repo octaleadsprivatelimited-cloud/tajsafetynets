@@ -569,6 +569,74 @@ export const services: Service[] = [
     popular: true
   },
   {
+    id: "wall-mount-dry-cloth-hanger",
+    name: "Wall Mount Dry Cloth Hanger",
+    slug: "wall-mount-dry-cloth-hanger",
+    description: "Heavy-duty wall-mounted cloth drying hanger designed for compact spaces. Features foldable arms, stainless steel rods, and rust-proof brackets that let you dry an entire load of laundry without occupying floor space. Ideal for balconies, utility rooms, and indoor laundry corners.",
+    shortDescription: "Foldable stainless steel wall-mounted cloth drying hanger",
+    features: [
+      "Foldable arm design saves space",
+      "304-grade stainless steel rods",
+      "Rust-proof powder-coated brackets",
+      "Supports up to 25 kg load",
+      "Multiple rod spacing options",
+      "Easy pull-out and lock mechanism",
+      "Child-safe rounded edges",
+      "Professional fitting included"
+    ],
+    applications: [
+      "Balcony walls",
+      "Utility areas",
+      "Indoor laundry corners",
+      "Bathrooms",
+      "Service areas",
+      "High-rise apartments",
+      "Hostels and PGs",
+      "Commercial laundries"
+    ],
+    benefits: [
+      "Maximizes wall space",
+      "Keeps floors clutter-free",
+      "Ideal for quick drying",
+      "Weather and rust resistant",
+      "Zero maintenance design",
+      "Sleek modern look",
+      "Custom width options",
+      "Affordable installation"
+    ],
+    materials: [
+      "304-grade stainless steel rods",
+      "Powder-coated MS brackets",
+      "High-tensile nylon cords",
+      "Anti-rust fasteners",
+      "Protective end-caps",
+      "Professional-grade anchors"
+    ],
+    installation: [
+      "Wall inspection and marking",
+      "Drilling and anchor fitting",
+      "Bracket alignment",
+      "Rod and arm assembly",
+      "Load testing and demonstration"
+    ],
+    maintenance: [
+      "Occasional wipe-down cleaning",
+      "Check screws once a year",
+      "Lubricate hinges if required",
+      "Report heavy-load damage",
+      "Annual professional inspection"
+    ],
+    warranty: "3 years warranty on brackets and installation",
+    image: "/images/cloth-hangers/wall-mount-dry-cloth-hanger.jpg",
+    heroImage: "/images/cloth-hangers/wall-mount-dry-cloth-hanger.jpg",
+    gallery: [
+      "/images/cloth-hangers/wall-mount-dry-cloth-hanger.jpg"
+    ],
+    priceRange: "₹2,500-4,500 per set",
+    category: "Cloth Hangers",
+    popular: true
+  },
+  {
     id: "wallpapers",
     name: "Wallpapers",
     slug: "wallpapers",

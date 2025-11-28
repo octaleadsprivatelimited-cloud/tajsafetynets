@@ -486,15 +486,15 @@ const Contact: React.FC = () => {
                 </h4>
                 <div className="mb-4">
                   <p className="text-gray-700 font-medium text-sm mb-1">
-                    Green Park Colony, Road No.9
+                    TAJ Enterprises Nets, Grills & Fabrication Works
                   </p>
                   <p className="text-gray-600 text-sm">
-                    Karmanghat, Hyderabad, Telangana, India
+                    Tapovan Colony, Road No.10, Saroornagar, Trimurti Colony, Saroor Nagar East, Hyderabad, Telangana 500035
                   </p>
                 </div>
                 <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg mb-4">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.123456789!2d79.0994768!3d13.2202461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDEzJzEyLjAiTiA3OcKwMDUnNTguMSJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                    src="https://www.google.com/maps?q=TAJ+ENTERPRISES+nets,+grills+and+fabrication+works,+Tapovan+colony,+Rd+Number+10,+Saroornagar,+Trimurti+Colony,+Saroor+Nagar+East,+Hyderabad,+Telangana+500035&z=17&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -506,7 +506,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <motion.a
-                    href="https://maps.google.com/maps?q=13.2202461,79.0994768&z=17&hl=en"
+                    href="https://maps.google.com/maps?q=TAJ+ENTERPRISES+nets,+grills+and+fabrication+works,+Tapovan+colony,+Rd+Number+10,+Saroornagar,+Trimurti+Colony,+Saroor+Nagar+East,+Hyderabad,+Telangana+500035&z=17&hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}
@@ -517,7 +517,7 @@ const Contact: React.FC = () => {
                     Open in Maps
                   </motion.a>
                   <motion.a
-                    href="https://maps.google.com/maps/dir/?api=1&destination=13.2202461,79.0994768"
+                    href="https://maps.google.com/maps/dir/?api=1&destination=TAJ+ENTERPRISES+nets,+grills+and+fabrication+works,+Tapovan+colony,+Rd+Number+10,+Saroornagar,+Trimurti+Colony,+Saroor+Nagar+East,+Hyderabad,+Telangana+500035"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.05 }}

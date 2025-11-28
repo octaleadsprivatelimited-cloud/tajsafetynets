@@ -72,13 +72,13 @@ const Footer: React.FC = () => {
                   <MapPin className="h-4 w-4 text-accent-500 mt-0.5 flex-shrink-0" />
                   <div>
                     <a 
-                      href="https://maps.google.com/maps?q=19.0760,72.8777&z=17&hl=en"
+                      href="https://maps.google.com/maps?q=TAJ+ENTERPRISES+nets,+grills+and+fabrication+works,+Tapovan+colony,+Rd+Number+10,+Saroornagar,+Trimurti+Colony,+Saroor+Nagar+East,+Hyderabad,+Telangana+500035&z=17&hl=en"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-300 hover:text-accent-400 transition-colors cursor-pointer block"
                     >
                       <p>Taj Safety Nets Office</p>
-                      <p>Hyderabad, Telangana - 500001</p>
+                      <p>Hyderabad, Telangana - 500035</p>
                     </a>
                   </div>
                 </div>

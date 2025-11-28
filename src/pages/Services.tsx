@@ -40,6 +40,7 @@ const Services: React.FC = () => {
       "Balcony Grills": <Home className="h-16 w-16 text-primary-600" />,
       "Top Roofs & Waterproof Sheets": <Droplets className="h-16 w-16 text-primary-600" />,
       "Cloth Hanger for Ceiling and Wall Brackets": <Shirt className="h-16 w-16 text-primary-600" />,
+      "Wall Mount Dry Cloth Hanger": <Shirt className="h-16 w-16 text-primary-600" />,
       "Wallpapers": <ImageIcon className="h-16 w-16 text-primary-600" />,
       "Construction Safety Nets": <Building className="h-16 w-16 text-primary-600" />,
       "Nursery Shade Nets": <Flower2 className="h-16 w-16 text-primary-600" />,
@@ -63,14 +64,14 @@ const Services: React.FC = () => {
     <>
       <Helmet>
         <title>Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad</title>
-        <meta name="description" content="Taj Safety Nets offers pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free consultation! ☎ +91 8790839401" />
-        <meta name="keywords" content="pigeon safety nets, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
+        <meta name="description" content="Taj Safety Nets offers pigeon safety nets, mosquito doors and windows, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, ceiling cloth hangers, wall mount dry cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors in Hyderabad. Professional installation across all areas. Free consultation! ☎ +91 8790839401" />
+        <meta name="keywords" content="pigeon safety nets, mosquito door and window, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, ceiling cloth hanger, wall mount dry cloth hanger, wallpapers, construction safety nets, nursery shade nets, children safety nets, folding aluminium mosquito door, Taj Safety Nets services, Banjara Hills, Jubilee Hills, Gachibowli, HITEC City, Secunderabad, Kondapur, Madhapur, Begumpet, Ameerpet, Kukatpally, Miyapur, Chandanagar, Serilingampally, Manikonda, Financial District, Nanakramguda, Kokapet, Tellapur, Raidurg, safety nets services Hyderabad" />
         <meta property="og:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
-        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
+        <meta property="og:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, ceiling cloth hangers, wall mount dry cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito door installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Our Services - Pigeon Safety Nets, Mosquito Doors, Artificial Grass & More | Taj Safety Nets Hyderabad" />
-        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
+        <meta name="twitter:description" content="Professional pigeon safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, wall mount dry cloth hangers, and more installation services in Hyderabad. Free consultation! ☎ +91 8790839401" />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Taj Safety Nets" />
       </Helmet>
@@ -121,7 +122,7 @@ const Services: React.FC = () => {
               Our Premium Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, and more with unmatched quality and service
+              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, wall and ceiling cloth hangers, and more with unmatched quality and service
             </p>
           </motion.div>
 
@@ -189,7 +190,7 @@ const Services: React.FC = () => {
               Why Choose Taj Safety Nets?
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors with unmatched quality and service
+              We provide comprehensive safety nets, mosquito doors, artificial grass, invisible grills, cricket nets, balcony grills, roof waterproofing, ceiling cloth hangers, wall mount dry cloth hangers, wallpapers, construction safety nets, nursery shade nets, children safety nets, and folding aluminium mosquito doors with unmatched quality and service
             </p>
           </motion.div>
 
